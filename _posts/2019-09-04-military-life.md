@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 軍旅生活
-featured-img: sleek
-mathjax: true
+featured-img: shane-rounce-205187
+categories: [紀錄]
 ---
 
 # 前言
