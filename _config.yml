@@ -5,7 +5,7 @@ url                          : "https://poi0905.github.io" # the base hostname &
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : POI's BLOG
+  title                      : POI'S BLOG
   description                  : >
                                JUST FOR FUN!
 
@@ -26,10 +26,10 @@ blog:
 
 # Author info
 author:
-  fullname                  : POI WANG
+  fullname                  : Poi Wang
   rss                       : false # generate RSS feed and show it's icon in header
-  mail                      : mailto:b07302230@ntu.edu.tw # change to your e-mail address
-  #twitter                   : twitter-user-name
+  mail                      : b07302230@ntu.edu.tw # change to your e-mail address
+  instagram                 : https://instagram.com/poi_0905?igshid=1ad398byroiap
   #github                    : github-user-name
   #youtube                   : youtube-user-name
   #stackoverflow             : stackoverflow-user-name
