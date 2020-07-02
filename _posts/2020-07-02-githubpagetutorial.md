@@ -18,7 +18,6 @@ categories: 教學
 所以[這裡](http://jekyllthemes.org/)有更豐富的內容給你去選擇
 選擇完就要開始動工了!
 
-***
 
 首先，你要先下載[Git Bash](https://git-scm.com/downloads)
 下載完成後打開它
