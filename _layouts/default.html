@@ -1,29 +1,20 @@
-<!DOCTYPE html>
-<!--
-  Original Design: Spectral by HTML5 UP
-    html5up.net | @n33co
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  Jekyll build mod
--->
+<!doctype html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
+  <div class="container">
+    {% include header.html %}
 
-      {% include header.html %}
-
+    <div class="post-container">
       {{ content }}
-
-      {% include footer.html %}
-
-      {% include scripts.html %}
-
     </div>
 
-  </body>
+    {% include footer.html %}
 
+  </div>
+
+</body>
 </html>
