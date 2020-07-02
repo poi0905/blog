@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 軍旅生活
+summary: 其實當兵也是個蠻酷的體驗拉...(疑?)
 featured-img: shane-rounce-205187
 categories: [日記]
 ---
