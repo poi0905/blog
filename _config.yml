@@ -2,14 +2,14 @@
 #
 
 # Site settings
-title: Spectral
+title: POI'S BLOG
 description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
-owner: Your Name # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+  Welcome to my place!
+  I will write some random stuff here.
+  JUST FOR FUN!
+owner: POI WANG # Your Name or company name
+first_published: 2020 # if migrating another site, the year of your first publish
+email: b07302230@ntu.edu.tw # your-email@domain.com
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://poi0905.github.io" # the base hostname & protocol for your site
 social:
