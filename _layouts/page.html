@@ -1,43 +1,17 @@
 ---
-layout: compress
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+<article id="main">
 
-  {% include head.html %}
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+  </header>
 
-  <body class="site">
-
-    {% if site.google_tag_manager %}
-
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-
-    {% endif %}
-
-    {% include header.html %}
-
-    <div class="hero--small">
-      <div class="hero__wrap">
-        <h1 class="hero__title">{{ page.title }}</h1>
-      </div>
+  <section class="wrapper style5">
+    <div class="inner">
+      {{ content }}
     </div>
-    <main class="site__content">
+  </section>
 
-      <div class="container">
-        <div class="page-content">
-
-          {{ content }}
-
-        </div>
-      </div>
-
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+</article>

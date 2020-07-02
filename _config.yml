@@ -1,71 +1,59 @@
-# SITE CONFIGURATION
-title: Sleek # your site title
-author: GitHub User # You :P
-description: > # Meta description of Homepage
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: Spectral
+description: |
+  Another fine responsive  
+  site template freebie  
+  crafted by [HTML5 UP](http://html5up.net)
+owner: Your Name # or company name
+first_published: 2016 # if migrating another site, the year of your first publish
+email: your-email@domain.com
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://poi0905.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
-# SEO PLUGIN
+url: "http://poi0905.github.io" # the base hostname & protocol for your site
 social:
-  name: Your Name
-  links:
-    - https://twitter.com/BenBalter
-    - https://www.facebook.com/ben.balter
-    - https://www.linkedin.com/in/BenBalter
-    - https://plus.google.com/+BenBalter
-    - https://github.com/benbalter
-    - https://keybase.io/benbalter
+  twitter: https://twitter.com/<username>
+  github: https://github.com/<username>
+  linkedin-square: https://linkedin.com/in/<username>
+  facebook-official: https://facebook.com/<username>
+  google-plus-square: https://plus.google.com/u/0/+<username>
+  #email: /contact/
+  #flickr:
+  #instagram:
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
 
-# THEME SETTINGS
-navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
-
-tagline: >
-  Modern Jekyll theme focused on speed performance &amp; SEO best practices
-
-hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
-
-email: your-email@domain.com # email for form submission
-
-twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
-github_username:  janczizikow # replace with your_github_username or comment to remove link from footer
-instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
-
-disqus:
-  shortname: janczizikow # to enable comments replace with your_disqus_shortname
-
-# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
-
-service_worker: true
-
-# BUILD SETTINGS
+# Build settings
 markdown: kramdown
-highlighter: rouge # or pygments or null
-# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
-exclude:
-  - README.md
-  - node_modules
-  - script
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - npm-debug.log
-  - gulpfile.js
-  - sleek.jpg
-
-include: ['_pages']
-permalink: /:title/
-
-compress_html:
-  clippings: all
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+#sass:
+#  style: compressed

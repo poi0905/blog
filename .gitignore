@@ -1,70 +1,51 @@
-*.gem
-.bundle
-.sass-cache
-_site
-_img/posts/*.jpg
-_img/posts/*.png
-Gemfile.lock
-.idea/*
-npm-debug.log
-*.js.map
-maps
-
-# OS Generated files #
-######################
-*.DS_Store
-.DS_Store
-.DS_store?
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# SASS #
-########
+# Jekyll ignores
 .sass-cache/
-*.css.map
+_site
 
-# Jekyll #
-##########
-_site/
-.jekyll-metadata
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Ruby #
-########
-*.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/spec/examples.txt
-/test/tmp/
-/test/version_tmp/
-/tmp/
+# Folder config file
+Desktop.ini
 
-# Used by dotenv library to load environment variables.
-# .env
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-## Specific to RubyMotion:
-.dat*
-.repl_history
-build/
-*.bridgesupport
-build-iPhoneOS/
-build-iPhoneSimulator/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-## Environment normalization:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
+# Windows shortcuts
+*.lnk
 
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
+# =========================
+# Operating System Files
+# =========================
 
-# Folders to ignore #
-#####################
-bower_components
-node_modules
+# OSX
+# =========================
 
-_algolia_api_key
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
