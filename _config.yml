@@ -1,118 +1,71 @@
-# Base blog settings
-baseurl                      : "/blog" # the subpath of your site,                         # e.g. /blog/
-                              # set to '' in case of hosting on GitHub
-url                          : "https://poi0905.github.io" # the base hostname & protocol for your site
-                                  # `http://<username>.github.io` - for GitHub
+# SITE CONFIGURATION
+title: Sleek # your site title
+author: GitHub User # You :P
+description: > # Meta description of Homepage
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://poi0905.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-blog:
-  title                      : POI'S BLOG
-  description                  : >
-                               JUST FOR FUN!
+# SEO PLUGIN
+social:
+  name: Your Name
+  links:
+    - https://twitter.com/BenBalter
+    - https://www.facebook.com/ben.balter
+    - https://www.linkedin.com/in/BenBalter
+    - https://plus.google.com/+BenBalter
+    - https://github.com/benbalter
+    - https://keybase.io/benbalter
 
-# Layout configuration
-  logo_path                  : "assets/img/dactl.svg" # path to logo file
-  search_path                : # "yourgitusername.github.io"
-                               # needed for searchbox in archive page
-  hero_layout                : true # turn on hero layout for blog and posts
-  hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
-  excerpts                   : true # show excerpts instead of full post content on blog page
-  inline_footnotes           : true # enable/disable barefoot inline footnotes
-  titles_only                : false # show post titles only on main blog page
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
 
-# Fonts
-  font                       : '"Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif'
-  load_google_fonts          : 'Rubik:400,400italic,700,700italic'
+tagline: >
+  Modern Jekyll theme focused on speed performance &amp; SEO best practices
 
+hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
-# Author info
-author:
-  fullname                  : Poi Wang
-  rss                       : false # generate RSS feed and show it's icon in header
-  mail                      : b07302230@ntu.edu.tw # change to your e-mail address
-  instagram                 : https://instagram.com/poi_0905?igshid=1ad398byroiap
-  #github                    : github-user-name
-  #youtube                   : youtube-user-name
-  #stackoverflow             : stackoverflow-user-name
-  #disqus                    : dactl # your disqus site name
-  #google_analytics          : # 'UA-XXXXXXXX-X'
-  #photo                     : "uploads/me2.png"
-  #photo2x                   : "uploads/me.png"
+email: your-email@domain.com # email for form submission
 
+twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
+github_username:  janczizikow # replace with your_github_username or comment to remove link from footer
+instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
 
+disqus:
+  shortname: janczizikow # to enable comments replace with your_disqus_shortname
 
-## !!
-## Advanced blog settings
-## You should not change anything here unless you know what you are doing
+# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
 
-# Gems
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+service_worker: true
 
-# Permalinks
-permalink                    : posts/:slug
-
-# Posts
-excerpt_separator            : <!–-break-–>
-
-# Pagination
-paginate                     : 5
-paginate_path                : '/page-:num/'
-
-# Tags
-collections:
-  my_tags:
-    output: true
-    permalink: /tag/:slug/
-defaults:
-  -
-    scope:
-      path: ""
-      type: my_tags
-    values:
-      layout: blog-by-tag
-
-# Handling Reading
-exclude                    : ["README.md", "README.html"]
-
-# https://github.com/jekyll/jekyll/issues/4619
-# Markdown and highlighter settings
+# BUILD SETTINGS
 markdown: kramdown
-# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
-# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
-highlighter: rouge
+highlighter: rouge # or pygments or null
+# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
 
-# More › http://kramdown.gettalong.org/quickref.html
-# Options › http://kramdown.gettalong.org/options.html
-kramdown:
-  input:          GFM
-  # https://github.com/jekyll/jekyll/pull/4090
-  syntax_highlighter: rouge
+include: ['_pages']
+permalink: /:title/
 
-  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
-  # span, block element options fall back to global
-  syntax_highlighter_opts:
-    # Rouge Options › https://github.com/jneen/rouge#full-options
-    # css_class: 'highlight'
-    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
-
-# Sass settings
-sass:
-  sass_dir                : _sass
-  style                   : compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-# HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
-  clippings               : all
-  endings                 : all
-  comments                : ["<!-- ", " -->"]
-  blanklines              : true
-  profile                 : false
-  ignore:
-  envs                    : [local]
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
