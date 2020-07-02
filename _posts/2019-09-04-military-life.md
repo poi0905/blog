@@ -2,7 +2,7 @@
 layout: post
 title: 軍旅生活
 featured-img: shane-rounce-205187
-categories: [紀錄]
+categories: [日記]
 ---
 
 # 前言
