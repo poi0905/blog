@@ -1,14 +1,10 @@
 ---
 layout: post
 title: 如何用github page製作屬於自己的部落格
-summary: 這篇文章來分享一下(也怕自己以後忘記)如何用github page來做屬於自己的部落格!
+summary: 這篇文章來分享一下如何用github page來做屬於自己的部落格(也怕自己以後忘記...)
 featured-img: emile-perron-190221
 categories: 教學
 ---
-
-這篇文章來分享一下(也怕自己以後忘記)如何用github page來做屬於自己的部落格!
-
-***
 
 其實youtube上已經有許多影片分享如何製作github page
 
