@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 軍旅生活
-featured-img: military
+featured-img: shane-rounce-205187
 categories: [日記]
 ---
 
