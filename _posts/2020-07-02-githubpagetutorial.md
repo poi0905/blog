@@ -78,6 +78,8 @@ url: "https://poi0905.github.io"
 
 因此有問題的話可以問我(我有能力的話XD)
 
+**記得隨時要注意自己目前在什麼位子喔!**
+
 下面放個圖當作參考
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2.jpg)
