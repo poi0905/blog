@@ -13,14 +13,14 @@ email: b07302230@ntu.edu.tw # your-email@domain.com
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://poi0905.github.io" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
+  #twitter: https://twitter.com/<username>
+  #github: https://github.com/<username>
+  #linkedin-square: https://linkedin.com/in/<username>
+  facebook-official: https://www.facebook.com/profile.php?id=100000584444686
+  #google-plus-square: https://plus.google.com/u/0/+<username>
+  email: b07302230@ntu.edu.tw
   #flickr:
-  #instagram:
+  instagram: https://instagram.com/poi_0905?igshid=1ad398byroiap
   #youtube-square:
   #spotify:
   #stack-overflow:
