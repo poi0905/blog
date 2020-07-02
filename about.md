@@ -4,10 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
+來自於桃園，目前就讀於國立台灣大學財務金融學系雙主修政治學系國際關係組大三。
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+會寫這個部落格是因為想記錄一下生活，免得過了幾年後人家問我大學在幹嘛只能回答說在打game。
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+目前人生無特別成就，比較能說嘴的應該是去過美國一年，不過都在耍廢就是了拉。
