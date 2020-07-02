@@ -28,7 +28,7 @@ categories: 教學
 
 ***
 
-### 第一步
+## 第一步
 
 你要先下載[Git Bash](https://git-scm.com/downloads)，
 
@@ -36,7 +36,7 @@ categories: 教學
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
-### 第二步
+## 第二步
 
 你必須將你的程式碼選擇在一個資料夾存放，以我為例，我是放在**大學資料**中的Blog的資料夾中，
 
@@ -48,11 +48,11 @@ categories: 教學
 
 簡單來說就是進入到你要存放的地方。
 
-### 第三步
+## 第三步
 
 把你想要的主題 clone 進去，方法是在 bash 中打 **git clone 網址**
 
-### 第四步
+## 第四步
 
 clone完成後，把資料移到屬於你自己的資料夾，並且打開自己的編譯器，找到**_config**，改裡面的url。
 
@@ -62,7 +62,7 @@ baseurl: "/blog"
 
 url: "https://poi0905.github.io"
 
-### 第五步
+## 第五步
 
 接者在 bash 裡依序打下列指令:
 
