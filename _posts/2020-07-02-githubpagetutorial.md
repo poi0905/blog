@@ -20,7 +20,8 @@ categories: 教學
 
 ***
 
-首先，你要先下載[Git Bash](https://git-scm.com/downloads)
+首先，你要先下載[Git Bash](https://git-scm.com/downloads)，
+
 下載完成後打開它
 
 
