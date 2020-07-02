@@ -6,6 +6,8 @@ featured-img: emile-perron-190221
 categories: 教學
 ---
 
+# 前言
+
 其實youtube上已經有許多影片分享如何製作github page，
 
 如果想要跟著做的可以先參考這[影片](https://www.youtube.com/watch?v=BA_c3bGQXlQ&t=96s)。
@@ -19,6 +21,8 @@ categories: 教學
 選擇完就要開始動工了!
 
 ***
+
+# 實作
 
 首先，你要先下載[Git Bash](https://git-scm.com/downloads)，
 
