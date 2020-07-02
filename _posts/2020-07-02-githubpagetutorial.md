@@ -32,6 +32,6 @@ categories: 教學
 
 下載完成後打開它
 
-![image](https://github.com/poi0905/blog/blob/master/assets/img/posts/1.jpg)
+![image](https://github.com/poi0905/blog/blob/master/assets/img/posts/1.png)
 
 
