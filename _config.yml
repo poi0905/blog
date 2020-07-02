@@ -10,7 +10,7 @@ url: "https://poi0905.github.io" # the base hostname & protocol for your site, e
 
 # SEO PLUGIN
 social:
-  name: Your Name
+  name: Poi Wang
   links:
     - https://twitter.com/BenBalter
     - https://www.facebook.com/profile.php?id=100000584444686
@@ -26,7 +26,7 @@ navigation: # Navigation links
   - {name: 'Contact', link: '/contact'}
 
 tagline: >
-  Modern Jekyll theme focused on speed performance &amp; SEO best practices
+  Some random stuff of my life...
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
