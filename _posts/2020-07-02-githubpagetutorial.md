@@ -78,13 +78,13 @@ url: "https://poi0905.github.io"
 
 因此有問題的話可以問我(我有能力的話XD)
 
-下面放個圖
+下面放個圖當作參考
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2.jpg)
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/3.jpg)
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/4.jpg)
 
 
 
