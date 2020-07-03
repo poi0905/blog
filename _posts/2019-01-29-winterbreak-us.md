@@ -283,58 +283,125 @@ Turtle Mocha
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_63.JPEG)
 
+這裡的票原來是自己用機器點的
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_64.JPEG)
+
+結果這般不知道為什麼大抵類，上了飛機超過一小時都還沒起飛，心很累
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_65.JPEG)
 
+到下一個朋友 Kuan 家拉!
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_66.JPEG)
+
+晚餐 Wendy's
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_67.JPEG)
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_68.JPEG)
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_69.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_70.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_71.JPEG)
-
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
 ***
 <a name="Day6(1/25)"/>
 ## Day6(1/25)
 
+由於 Kuan 白天要上班，所以今天是個耍廢 day。(一個人吃掉冰箱一整個pizza)
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_68.JPEG)
+
+晚餐吃中東料理 ~ Pita Inn
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_69.JPEG)
+
+好吃的蔬菜球 ~ falafel
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_70.JPEG)
+
 
 ***
 <a name="Day7(1/26)"/>
 ## Day7(1/26)
 
+午餐 ~ Portillo's
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_71.JPEG)
+
+一杯 1490 cal 的 chocolate cake shake
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_72.JPEG)
+
+拜訪 Kuan 的朋友。話說他們人都很好，很有趣的是她們台裔美國人的台語比中文好，也比我好哈哈
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_73.JPEG)
+
+那個小哥吉他超強...隨便撥首歌他都能跟(圖片是山海 mv)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_74.JPEG)
+
+晚餐 ~ Popeyes
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_75.JPEG)
+
+
 
 ***
 <a name="Day8(1/27)"/>
 ## Day8(1/27)
 
+去
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_76.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_77.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_78.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_79.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_80.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_81.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_82.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_83.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_84.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_85.JPEG)
 
 ***
 <a name="Day9(1/28)"/>
 ## Day9(1/28)
 
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_76.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_77.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_78.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_79.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_80.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_81.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_82.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_83.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_84.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_85.JPEG)
 
 ***
 <a name="Day10(1/29)"/>
 ## Day10(1/29)
 
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_84.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_85.JPEG)
 
 
