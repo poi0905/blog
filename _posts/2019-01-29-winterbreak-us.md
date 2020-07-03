@@ -75,7 +75,7 @@ categories: [遊記]
 
 到芝加哥了!
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_07.JPEG)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_07.PNG)
 
 哭哭原本可以趕上21:10分的，結果櫃台給我開22點的(帶我快速通關的先生白費力氣了QQ)。後來到gate後發現我不在 standby list 上，馬上去跟小姐講，一開始以為要被放生了，後來好險他叫我名字幫我換一張，而且位子還不錯，旁邊沒人~
 
