@@ -118,16 +118,67 @@ Paul的房間
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_17.JPEG)
 
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_18.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_19.JPEG)
+
 好險有隔夜包，不然嘴巴乾到爆炸
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_18.JPEG)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_20.JPEG)
 
 ***
 <a name="Day2(1/21)"/>
 ## Day2(1/21)
 
+早餐~
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_21.JPEG)
+
+這吉祥物跟我在美國時的高中一樣耶! Vikings Strong!
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_22.JPEG)
+
+Mall of America，蠻酷的，裏頭除了Mall還有遊樂場、水族館、3D遊戲
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_23.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_24.JPEG)
+
+午餐~被一個印尼店員攔住，他問我們從哪裡來。我們回答台灣，然後他又問台灣哪裡，我們答桃園。結果竟然!店員說他來過**中壢**很多次哈哈哈，果然中壢就是桃園的東南亞特別行政區XD(嘴砲)。
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_25.JPEG)
+
+與樂高拍照
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_26.JPEG)
+
+進入水族館，還買了導覽(結果英文太爛很多聽不懂==)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_27.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_28.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_29.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_30.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_31.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_32.JPEG)
+
+蠻屌的魔術秀，屌到懷疑是set好的
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_33.JPEG)
+
+Shake Shake~吃了才發現我吃過
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_34.JPEG)
+
+最後的 Minnehaha Park，真的冷到靠北，就沒 trespass 下去近距離看了
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_35.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_36.JPEG)
 
 ***
 <a name="Day3(1/22)"/>
