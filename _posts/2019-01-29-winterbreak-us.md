@@ -145,7 +145,7 @@ Mall of America，蠻酷的，裏頭除了 Mall 還有遊樂場、水族館、3D
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_24.JPEG)
 
-午餐~被一個印尼店員攔住，他問我們從哪裡來。我們回答台灣，然後他又問台灣哪裡，我們答桃園。結果竟然!店員說他來過**中壢**很多次哈哈哈，果然中壢就是桃園的東南亞特別行政區XD(嘴砲)。
+午餐~被一個印尼店員攔住，他問我們從哪裡來。我們回答台灣，然後他又問台灣哪裡，我們答桃園。結果竟然!店員說他來過**中壢**很多次哈哈哈，果然中壢就是桃園的東南亞特別行政區XD(嘴砲)
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_25.JPEG)
 
