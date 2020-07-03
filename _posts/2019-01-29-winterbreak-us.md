@@ -184,15 +184,64 @@ Shake Shake~吃了才發現我吃過
 <a name="Day3(1/22)"/>
 ## Day3(1/22)
 
+今天早上享受一個人在家的時光~
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_37.JPEG)
+
+下午去 Minneapolis downtown
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_38.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_39.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_40.JPEG)
+
+地標~ Arch Stone Bridge，紀錄著這座 Mill City 曾經輝煌的歷史
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_41.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_42.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_43.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_44.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_45.JPEG)
+
+最後的晚餐~ Hell's Kitchen Inc.
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_46.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_47.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_48.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_49.JPEG)
 
 ***
 <a name="Day4(1/23)"/>
 ## Day4(1/23)
 
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_50.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_51.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_52.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_53.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_54.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_55.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_56.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_57.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_58.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_59.JPEG)
 
 ***
 <a name="Day5(1/24)"/>
