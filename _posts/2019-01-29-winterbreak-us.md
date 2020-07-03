@@ -49,8 +49,8 @@ categories: [遊記]
 
 <a name="Day1(1/20)"/>
 ## Day1(1/20)
-
-首先先去拿sim卡~(店員還很兩光給錯張)
+ 
+首先先去拿 sim 卡~(店員還很兩光給錯張)
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_01.JPEG)
 
@@ -58,7 +58,7 @@ categories: [遊記]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_02.JPEG)
 
-到了gate，發現是hello kitty的班機!
+到了 gate，發現是 hello kitty 的班機!
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_03.JPEG)
 
@@ -66,7 +66,7 @@ categories: [遊記]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_04.JPEG)
 
-莫名其妙的被空服員換去business class，超幸運!
+莫名其妙的被空服員換去 business class，超幸運!
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_05.JPEG)
 
@@ -78,7 +78,7 @@ categories: [遊記]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_07.JPEG)
 
-哭哭原本可以趕上21:10分的，結果櫃台給我開22點的(帶我快速通關的先生白費力氣了QQ)。後來到gate後發現我不在standby list上，馬上去跟小姐講，一開始以為要被放生了，後來好險他叫我名字幫我換一張，而且位子還不錯，旁邊沒人~
+哭哭原本可以趕上21:10分的，結果櫃台給我開22點的(帶我快速通關的先生白費力氣了QQ)。後來到gate後發現我不在 standby list 上，馬上去跟小姐講，一開始以為要被放生了，後來好險他叫我名字幫我換一張，而且位子還不錯，旁邊沒人~
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_08.JPEG)
 
@@ -98,7 +98,7 @@ Paul!
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_12.JPEG)
 
-直接一個錯過輕軌，下一班一個小時後，果斷Uber~(真的冷到哭...)
+直接一個錯過輕軌，下一班一個小時後，果斷 Uber ~ (真的冷到哭...)
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_13.JPEG)
 
@@ -106,7 +106,7 @@ Paul!
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_14.JPEG)
 
-到家拉，我的床~
+到家拉，我的床 ~ 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_15.JPEG)
 
@@ -114,7 +114,7 @@ Paul!
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_16.JPEG)
 
-Paul的房間
+Paul 的房間
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_17.JPEG)
 
@@ -130,7 +130,7 @@ Paul的房間
 <a name="Day2(1/21)"/>
 ## Day2(1/21)
 
-早餐~
+早餐 ~
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_21.JPEG)
 
@@ -138,7 +138,7 @@ Paul的房間
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_22.JPEG)
 
-Mall of America，蠻酷的，裏頭除了Mall還有遊樂場、水族館、3D遊戲
+Mall of America，蠻酷的，裏頭除了 Mall 還有遊樂場、水族館、3D遊戲
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_23.JPEG)
 
@@ -166,7 +166,7 @@ Mall of America，蠻酷的，裏頭除了Mall還有遊樂場、水族館、3D�
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_32.JPEG)
 
-蠻屌的魔術秀，屌到懷疑是set好的
+蠻屌的魔術秀，屌到懷疑是 set 好的
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_33.JPEG)
 
@@ -184,7 +184,7 @@ Shake Shake~吃了才發現我吃過
 <a name="Day3(1/22)"/>
 ## Day3(1/22)
 
-今天早上享受一個人在家的時光~
+今天早上享受一個人在家的時光 ~
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_37.JPEG)
 
@@ -196,7 +196,7 @@ Shake Shake~吃了才發現我吃過
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_40.JPEG)
 
-地標~ Arch Stone Bridge，紀錄著這座 Mill City 曾經輝煌的歷史
+地標 ~ Arch Stone Bridge，紀錄著這座 Mill City 曾經輝煌的歷史
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_41.JPEG)
 
@@ -208,7 +208,7 @@ Shake Shake~吃了才發現我吃過
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_45.JPEG)
 
-最後的晚餐~ Hell's Kitchen Inc.
+最後的晚餐 ~ Hell's Kitchen Inc.
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_46.JPEG)
 
@@ -222,30 +222,82 @@ Shake Shake~吃了才發現我吃過
 <a name="Day4(1/23)"/>
 ## Day4(1/23)
 
+Paul 推的 Bruegger's Bagels
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_50.JPEG)
 
+一日 UMN 學生
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_51.JPEG)
+
+美術館
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_52.JPEG)
 
+樹上不知道為什麼一堆鞋子
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_53.JPEG)
+
+第一堂課~ Discrete Mathematics
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_54.JPEG)
 
+來這裡第一次看到太陽
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_55.JPEG)
+
+熟悉的 Panda Express
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_56.JPEG)
 
+有中華民國的國旗耶!
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_57.JPEG)
+
+Mississipipi River
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_58.JPEG)
 
+當地知名的 Caribou Coffee
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_59.JPEG)
+
+Turtle Mocha
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_60.JPEG)
+
+下午當宅宅跟 Paul 和他室友 Kaleb 打 Xbox
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_61.JPEG)
+
+晚餐 ~ Chicken Gyros
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_62.JPEG)
+
 
 ***
 <a name="Day5(1/24)"/>
 ## Day5(1/24)
+
+在 Minnenopolis 的最後一餐 ~ Chipotle 
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_63.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_64.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_65.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_66.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_67.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_68.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_69.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_70.JPEG)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_71.JPEG)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
