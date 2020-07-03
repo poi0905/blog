@@ -348,56 +348,46 @@ Turtle Mocha
 <a name="Day8(1/27)"/>
 ## Day8(1/27)
 
-去
+去 Kuan 工作的咖啡廳坐坐
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_76.JPEG)
 
+Masala Chai Tea Latte ~ 好喝!肉桂味很香
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_77.JPEG)
+
+午餐
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_78.JPEG)
 
+晚餐 ~ homemade steak
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_79.JPEG)
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_80.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_81.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_82.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_83.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_84.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_85.JPEG)
 
 ***
 <a name="Day9(1/28)"/>
 ## Day9(1/28)
 
+今天也是耍廢整天，喔對了有看 black mirror 啦，看完蠻有啟示的。
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_76.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_77.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_78.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_79.JPEG)
+晚餐 ~ Chick-fil-A
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_80.JPEG)
+
+雪多到哭...(還停課)
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_81.JPEG)
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_82.JPEG)
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_83.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_84.JPEG)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_85.JPEG)
-
 ***
 <a name="Day10(1/29)"/>
 ## Day10(1/29)
+
+最後一天 ~ 最後一餐 ~ 超讚
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_83.JPEG)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_84.JPEG)
