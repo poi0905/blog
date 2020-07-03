@@ -50,6 +50,8 @@ categories: [遊記]
 <a name="Day1(1/20)"/>
 ## Day1(1/20)
  
+***
+
 首先先去拿 sim 卡~(店員還很兩光給錯張)
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_01.JPEG)
@@ -126,9 +128,11 @@ Paul 的房間
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_20.JPEG)
 
-***
+
 <a name="Day2(1/21)"/>
 ## Day2(1/21)
+
+***
 
 早餐 ~
 
@@ -180,9 +184,11 @@ Shake Shake~吃了才發現我吃過
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_36.JPEG)
 
-***
+
 <a name="Day3(1/22)"/>
 ## Day3(1/22)
+
+***
 
 今天早上享受一個人在家的時光 ~
 
@@ -218,9 +224,11 @@ Shake Shake~吃了才發現我吃過
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_49.JPEG)
 
-***
+
 <a name="Day4(1/23)"/>
 ## Day4(1/23)
+
+***
 
 Paul 推的 Bruegger's Bagels
 
@@ -275,9 +283,10 @@ Turtle Mocha
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_62.JPEG)
 
 
-***
 <a name="Day5(1/24)"/>
 ## Day5(1/24)
+
+***
 
 在 Minnenopolis 的最後一餐 ~ Chipotle 
 
@@ -300,10 +309,10 @@ Turtle Mocha
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_67.JPEG)
 
 
-
-***
 <a name="Day6(1/25)"/>
 ## Day6(1/25)
+
+***
 
 由於 Kuan 白天要上班，所以今天是個耍廢 day。(一個人吃掉冰箱一整個pizza)
 
@@ -318,9 +327,10 @@ Turtle Mocha
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_70.JPEG)
 
 
-***
 <a name="Day7(1/26)"/>
 ## Day7(1/26)
+
+***
 
 午餐 ~ Portillo's
 
@@ -343,10 +353,10 @@ Turtle Mocha
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_75.JPEG)
 
 
-
-***
 <a name="Day8(1/27)"/>
 ## Day8(1/27)
+
+***
 
 去 Kuan 工作的咖啡廳坐坐
 
@@ -365,9 +375,10 @@ Masala Chai Tea Latte ~ 好喝!肉桂味很香
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_79.JPEG)
 
 
-***
 <a name="Day9(1/28)"/>
 ## Day9(1/28)
+
+***
 
 今天也是耍廢整天，喔對了有看 black mirror 啦，看完蠻有啟示的。
 
@@ -381,9 +392,11 @@ Masala Chai Tea Latte ~ 好喝!肉桂味很香
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_82.JPEG)
 
-***
+
 <a name="Day10(1/29)"/>
 ## Day10(1/29)
+
+***
 
 最後一天 ~ 最後一餐 ~ 超讚
 
