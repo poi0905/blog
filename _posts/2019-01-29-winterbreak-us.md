@@ -34,6 +34,8 @@ categories: [遊記]
 
 [Day10(1/29)](Day1(1/29))
 
+[3.後記]](3.後記)
+
 <a name="1.前言"/>
 # 1.前言
 
@@ -409,3 +411,7 @@ Masala Chai Tea Latte ~ 好喝!肉桂味很香
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_85.JPEG)
 
 
+<a name="3.後記"/>
+# 3.後記
+
+***
