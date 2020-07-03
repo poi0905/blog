@@ -6,18 +6,48 @@ featured-img: 2019.01.us_cover
 categories: [遊記]
 ---
 
-# 前言
+# 目錄
+
+***
+
+[1.前言](#1.前言)
+
+[2.流水帳](#2.流水帳)
+
+[Day1(1/20)](Day1(1/20))
+
+[Day2(1/21)](Day1(1/21))
+
+[Day3(1/22)](Day1(1/22))
+
+[Day4(1/23)](Day1(1/23))
+
+[Day5(1/24)](Day1(1/24))
+
+[Day6(1/25)](Day1(1/25))
+
+[Day7(1/26)](Day1(1/26))
+
+[Day8(1/27)](Day1(1/27))
+
+[Day9(1/28)](Day1(1/28))
+
+[Day10(1/29)](Day1(1/29))
+
+<a name="1.前言"/>
+# 1.前言
 
 ***
 
 
 
 
-
-# 流水帳
+<a name="2.流水帳"/>
+# 2.流水帳
 
 ***
 
+<a name="Day1(1/20)"/>
 ## Day1(1/20)
 
 首先先去拿sim卡~(店員還很兩光給錯張)
@@ -93,63 +123,63 @@ Paul的房間
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_18.JPEG)
 
 ***
-
+<a name="Day2(1/21)"/>
 ## Day2(1/21)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
 ***
-
+<a name="Day3(1/22)"/>
 ## Day3(1/22)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
 ***
-
+<a name="Day4(1/23)"/>
 ## Day4(1/23)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
 ***
-
+<a name="Day5(1/24)"/>
 ## Day5(1/24)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
 ***
-
+<a name="Day6(1/25)"/>
 ## Day6(1/25)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
 ***
-
+<a name="Day7(1/26)"/>
 ## Day7(1/26)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
 ***
-
+<a name="Day8(1/27)"/>
 ## Day8(1/27)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
 ***
-
+<a name="Day9(1/28)"/>
 ## Day9(1/28)
 
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
 
 ***
-
+<a name="Day10(1/29)"/>
 ## Day10(1/29)
 
 
