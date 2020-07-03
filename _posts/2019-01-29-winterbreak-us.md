@@ -53,7 +53,7 @@ categories: [遊記]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_01.JPEG)
 
-再來就是去每次都會去的貴賓是騙吃騙喝><
+再來就是去每次都會去的貴賓室騙吃騙喝><
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_02.JPEG)
 
