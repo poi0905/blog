@@ -295,7 +295,7 @@ Turtle Mocha
 
 結果這般不知道為什麼大抵類，上了飛機超過一小時都還沒起飛，心很累
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_65.JPEG)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2019.01.us_65.PNG)
 
 到下一個朋友 Kuan 家拉!
 
