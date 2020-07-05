@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2019年軍旅生活
+title: 2019 軍旅生活
 summary: 其實當兵也是個蠻酷的體驗拉...(?)
 featured-img: 當兵合照
 categories: [紀錄]
