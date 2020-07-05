@@ -45,18 +45,23 @@ categories: [教學]
 1. cd 'OneDrive - g.ntu.edu.tw'
 2. cd 大學資料
 3. cd blog
+4. git clone **自己部落格repository的網址**
 
-簡單來說就是進入到你要存放的地方。
+所以假設我的repository命名為myblog，我這個myblog會位在:
 
-**注意，你要拿來做blog的repository要先clone進去**
+**'OneDrive - g.ntu.edu.tw' >> 大學資料 >> blog >> myBlog**
 
 ## 第三步
 
-把你想要的主題 clone 進去，方法是在 bash 中打 **git clone 網址**
+把你想要的主題 clone 進去 blog 裡，方法是在 bash 中打 **git clone 網址**
+
+此時你的 blog 會有:
+1. 想要用的主題
+2. myBlog
 
 ## 第四步
 
-clone完成後，把資料移到屬於你自己的資料夾，並且打開自己的編譯器，找到**_config**，改裡面的url。
+clone完成後，把資料移到屬於你自己的資料夾(以上面的例子來說即為myBlog)，並且打開自己的編譯器，找到**_config**，改裡面的url。
 
 以我為例，我是這樣:
 
