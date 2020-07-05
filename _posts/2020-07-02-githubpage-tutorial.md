@@ -48,6 +48,8 @@ categories: [教學]
 
 簡單來說就是進入到你要存放的地方。
 
+**注意，你要拿來做blog的repository要先clone進去**
+
 ## 第三步
 
 把你想要的主題 clone 進去，方法是在 bash 中打 **git clone 網址**
