@@ -38,30 +38,30 @@ categories: [教學]
 
 ## 第二步
 
-你必須將你的程式碼選擇在一個資料夾存放，以我為例，我是放在**大學資料**中的Blog的資料夾中，
+你必須將你的程式碼選擇在一個資料夾存放，以我為例，我是放在**大學資料**中的BLOG的資料夾中，
 
-因此，我會在我的bash打:
+因此，以我為例，我會在我的bash打:
 
 1. cd 'OneDrive - g.ntu.edu.tw'
 2. cd 大學資料
-3. cd blog
+3. cd BLOG
 4. git clone **自己部落格repository的網址**
 
-所以假設我的repository命名為myBlog，我這個myBlog會位在:
+所以假設我的repository命名為blog，我這個blog會位在:
 
-**'OneDrive - g.ntu.edu.tw' >> 大學資料 >> blog >> myBlog**
+**'OneDrive - g.ntu.edu.tw' >> 大學資料 >> BLOG >> blog**
 
 ## 第三步
 
 把你想要的主題 clone 進去 blog 裡，方法是在 bash 中打 **git clone 網址**
 
-此時你的 blog 資料夾裡會有:
+此時你的 BLOG 資料夾裡會有:
 1. 想要用的主題
-2. myBlog
+2. blog
 
 ## 第四步
 
-clone完成後，把資料移到屬於你自己的資料夾(以上面的例子來說即為myBlog)，並且打開自己的編譯器，找到**_config**，改裡面的url。
+clone完成後，把主題資料夾裡面的全部東西移到屬於你自己的資料夾(以上面的例子來說即為blog)，並且打開自己的編譯器，找到**_config**，改裡面的url。
 
 以我為例，我是這樣:
 
