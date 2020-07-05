@@ -55,7 +55,7 @@ categories: [教學]
 
 把你想要的主題 clone 進去 blog 裡，方法是在 bash 中打 **git clone 網址**
 
-此時你的 blog 會有:
+此時你的 blog 資料夾裡會有:
 1. 想要用的主題
 2. myBlog
 
