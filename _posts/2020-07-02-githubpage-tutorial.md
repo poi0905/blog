@@ -47,7 +47,7 @@ categories: [教學]
 3. cd blog
 4. git clone **自己部落格repository的網址**
 
-所以假設我的repository命名為myblog，我這個myblog會位在:
+所以假設我的repository命名為myBlog，我這個myBlog會位在:
 
 **'OneDrive - g.ntu.edu.tw' >> 大學資料 >> blog >> myBlog**
 
