@@ -43,10 +43,10 @@ categories: [教學]
 因此，以我為例，我會在我的bash打:
 
 ```
-1. cd 'OneDrive - g.ntu.edu.tw'
-2. cd 大學資料
-3. cd BLOG
-4. git clone **自己部落格repository的網址**
+cd 'OneDrive - g.ntu.edu.tw'
+cd 大學資料
+cd BLOG
+git clone **自己部落格repository的網址**
 ```
 
 所以假設我的repository命名為blog，我這個blog會位在:
@@ -76,9 +76,9 @@ url: "https://poi0905.github.io"
 接者在 bash 裡依序打下列指令:
 
 ```
-1. git add .
-2. git commit -m"_隨意(可以輸日期、或做了什麼事情)_"
-3. git push
+git add .
+git commit -m"隨意(可以輸日期、或做了什麼事情)"
+git push
 ```
 
 ## 第六步
