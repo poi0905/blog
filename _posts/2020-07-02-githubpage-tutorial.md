@@ -55,7 +55,7 @@ git clone **自己部落格repository的網址**
 
 ## 第三步
 
-把你想要的主題 clone 進去 blog 裡，方法是在 bash 中打 **git clone 網址**
+把你想要的主題 clone 進去 BLOG 裡，方法是在 bash 中打 **git clone 網址**
 
 此時你的 BLOG 資料夾裡會有:
 1. 想要用的主題
