@@ -100,5 +100,7 @@ git push
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/4.jpg)
 
 
-
-
+<!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7548922&style=0007&nbdigits=5&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
+</a>     
