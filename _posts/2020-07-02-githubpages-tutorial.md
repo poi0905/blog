@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何用 Github Page 製作屬於自己的部落格
+title: 如何用 Github Pages 製作屬於自己的部落格
 summary: 這篇文章將分享如何用 Github Pages 來做屬於自己的部落格(也怕自己以後忘記...)
 featured-img: emile-perron-190221
 categories: [教學]
