@@ -415,7 +415,8 @@ Masala Chai Tea Latte ~ 好喝!肉桂味很香
 
 這次旅行我只花了不到400美金，主要是省下的機票錢跟靠朋友救助，整趟下來雖然都是睡沙發，但是十分的窩心!感謝朋友願意給我一個地方睡覺，還會帶我吃好吃的，真的是感謝感謝，這次的旅行也算是蠻特別的!希望以後還有機會再拜訪他們!
 
+## 瀏覽人數
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7548928&style=0007&nbdigits=5&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
-</a>           
+<img src="https://hitwebcounter.com/counter/counter.php?page=7548940&style=0006&nbdigits=5&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
+</a>         

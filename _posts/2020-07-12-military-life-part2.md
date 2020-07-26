@@ -134,7 +134,8 @@ btw我上靶台兩次測試了不同的壓槍，我發現左手由上往下壓�
 
 **持續更新中...**
 
+## 瀏覽人數
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7548921&style=0007&nbdigits=5&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
-</a>               
+<img src="https://hitwebcounter.com/counter/counter.php?page=7548932&style=0006&nbdigits=5&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
+</a>                 
