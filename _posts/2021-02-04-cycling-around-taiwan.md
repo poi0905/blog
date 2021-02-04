@@ -101,6 +101,23 @@ categories: [紀錄]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day3路線.png)
 
+-
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島009.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島010.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島011.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島012.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島013.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島014.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島015.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島016.jpeg)
 
 
 <a name="Day4"/>
@@ -110,6 +127,13 @@ categories: [紀錄]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day4路線.png)
 
+-
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島017.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島018.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島019.jpeg)
 
 
 <a name="結語"/>
