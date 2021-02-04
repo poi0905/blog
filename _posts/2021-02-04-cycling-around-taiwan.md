@@ -96,5 +96,4 @@ categories: [紀錄]
 
 ## 瀏覽人數
 <!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7715481&style=0006&nbdigits=5&type=page&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" /></a>                                 
+                           
