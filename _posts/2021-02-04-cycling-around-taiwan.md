@@ -37,7 +37,9 @@ categories: [紀錄]
 ***
 
 1. 日期: 2021/01/29
-2. 路線: ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day1路線.png)
+2. 路線: 
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day1路線.png)
 
 
 <a name="Day2"/>
@@ -46,7 +48,9 @@ categories: [紀錄]
 ***
 
 1. 日期: 2021/01/30
-2. 路線: ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day2路線.png)
+2. 路線: 
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day2路線.png)
 
 
 
@@ -56,7 +60,9 @@ categories: [紀錄]
 ***
 
 1. 日期: 2021/01/31
-2. 路線: ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day3路線.png)
+2. 路線: 
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day3路線.png)
 
 
 
@@ -66,7 +72,9 @@ categories: [紀錄]
 ***
 
 1. 日期: 2021/02/01
-2. 路線: ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day4路線.png)
+2. 路線: 
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day4路線.png)
 
 
 
@@ -81,7 +89,7 @@ categories: [紀錄]
 安駕觀念
 速限 高架橋 給機車騎爛路
 
-<
+
 
 ## 瀏覽人數
 <!-- hitwebcounter Code START -->
