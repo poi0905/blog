@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2021.01 環島
-summary: 趁年輕來趟說走就走的旅行!
+summary: 一個說走就走的旅行!
 featured-img: 裝逼照
 categories: [紀錄]
 ---
