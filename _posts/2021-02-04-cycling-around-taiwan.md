@@ -35,6 +35,8 @@ categories: [紀錄]
 
 話說我們這次的環島又跟大家騎的不太一樣，**我們是沿著海岸線環島，順便踩踩台灣四個方位的極點**，應該很多人會有疑慮說不都是這樣嗎?但事實上很多環島都是有跳過一些地方，像是略過北海岸，或者是騎南迴，這樣就比較好騎。我們則是最自虐的路線，尤其是台灣東南方，那裏由於還沒被開發(也就是著名的阿朗壹古道)，因此我們只能在山上騎縣道，不得不說，真的是很黑很累又有點危險😥，不太建議大家來哈哈哈(解成就另當別論)
 
+喔對，為了完整繞一圈，**我還特地從桃園騎上去八里**跟Hung醬與凱文會合，暈還解?
+
 <a name="Day1"/>
 # 📍Day1-2021/01/29
 
@@ -101,19 +103,40 @@ categories: [紀錄]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day3路線.png)
 
--
+
+這天就是東部海岸線的一日，非常的chill，海岸有夠美，騎著騎著就會覺得台灣不愧為寶島之名!
+
+有了前一日的前車之鑑，這天決定早起去太麻里看有名的日出，接著再早出門。很可惜的是烏雲有點多，沒辦法看到旭日東昇的樣子。
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島009.jpeg)
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島010.jpeg)
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島011.jpeg)
+接著就馬不停蹄的前往三仙台，也很可惜的是三仙台正好在維修，沒辦法登島，但不得不說天氣超好! 有夠漂亮，心情整個放鬆! 我們還在那裏扶起一個漂流木，把它取作東尼大木並且和我們合照(有夠像是白癡的)。
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島012.jpeg)
 
+離開三仙台後，凱文又繼續耍笨。這趟旅程我們都帶了拖鞋，但後來發現根本用不到，但凱文硬要秀一手，在騎車的過程中不小心讓他的拖鞋飛走，真的是把拖鞋帶來花蓮丟的，有夠好笑。附圖就是Hung醬大力斥責白癡的凱文。
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島013.jpeg)
 
+我們接著往上騎上去宜蘭，途中經過蘇花公路。這條公路最近蠻有爭議的，因為最近蘇花改開放砂石車等也能走，也就是等於說這條危險的公路只剩騎士與居民了。姑且不論蘇花改為啥不給騎士走，但換個角度想，舊蘇花在少了大卡車等的大車騎起來舒適很多，但天黑騎還是有一點危險(對，又不小心搞到太陽下山了)，但這天情況比前一天好很多了，大概7點多就到住宿處。
+
+最後的住宿處也是十分逗趣，我們入住處叫做金羅東大飯店，裡面裝潢十分復古，店員有種武俠小說店小二的感覺，臉上一直帶著微笑。但不知為何，有種皮笑肉不笑的感覺，還會講一堆莫名吹捧的話，像是你們都是帥哥，很高興你們來，或者是看到你們我整個就是爽等奇怪的阿諛奉承的話。總之場景就是十分尷尬，要是有影片一定會超好笑。
+
+-
+
+三仙台配上網率><🤠
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島010.jpeg)
+
+三仙台與三個傻瓜
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島011.jpeg)
+
+冷清清的蘇花
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島014.jpeg)
+
+有點復古感又詭異的金羅東大飯店
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島015.jpeg)
 
@@ -127,11 +150,19 @@ categories: [紀錄]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島day4路線.png)
 
+最後一天的路程蠻輕鬆的，就是沿著海岸騎回淡水，完成一整圈的成就，再騎回宿舍。過程中有踩台灣本島極東點三貂角與極北點富貴角，順便去金山老街逛逛。其實最後騎回到淡水時也是剛好太陽下山，真的是蠻幸運的，就用那美麗的夕陽結束我們的環島遊!
+
 -
+
+在宜蘭超常見的景色，給人一種超平靜的感覺!
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島017.jpeg)
 
+富貴角(三貂角只有錄影片沒有照片😥)
+
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島018.jpeg)
+
+最後一站沙崙海岸，夕陽也是夠美!
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島019.jpeg)
 
