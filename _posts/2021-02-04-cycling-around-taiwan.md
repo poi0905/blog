@@ -3,7 +3,7 @@ layout: post
 title: 2021.01 環島
 summary: 一個說走就走的旅行!
 featured-img: 裝逼照
-categories: [紀錄]
+categories: [遊記]
 ---
 
 # 目錄
