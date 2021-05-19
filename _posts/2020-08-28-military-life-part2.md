@@ -252,8 +252,3 @@ btw，我剛一查原來夜哨口令有一定架構，通常是人+事+地來組
 
 二兵王博奕，Peace out!
 
-## 瀏覽人數
-<!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7548932&style=0006&nbdigits=5&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
-</a>                 

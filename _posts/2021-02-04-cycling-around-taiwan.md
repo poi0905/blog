@@ -189,9 +189,5 @@ categories: [紀錄]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/環島020.jpeg)
 
-
-## 瀏覽人數
-<!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7748334&style=0006&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>            
-                           
+          
+                        
