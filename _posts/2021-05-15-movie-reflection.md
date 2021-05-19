@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 電影心得
-summary: 沒有架構的寫下自己的想寫的東西
+summary: 沒有架構地寫下自己的想寫的東西
 featured-img: movie
 categories: [心得]
 ---
