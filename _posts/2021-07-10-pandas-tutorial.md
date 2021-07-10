@@ -10,92 +10,85 @@ categories: [教學]
 
 ***
 
-其實youtube上已經有許多影片分享如何製作github pages，
+最近在一個以資料科學為主的程式教學平台[datacamp](https://learn.datacamp.com)學習，
 
-如果想要跟著做的可以先參考這[影片](https://www.youtube.com/watch?v=BA_c3bGQXlQ&t=96s)。
+寫這篇文章一方面分享學習筆記，
 
-開始變化的地方是影片中的選取主題處，
-
-由於github pages上的主題選擇不多，
-
-所以我們可以從[這裡](http://jekyllthemes.org/)來選擇更豐富的主題，
-
-選擇完就要開始動工了!
+也讓自己未來在操作時有地方翻語法。
 
 
-
-# 實作
+# Data Manipulation with pandas
 
 ***
 
-## 第一步
+## Transforming Data
 
-你要先下載[Git Bash](https://git-scm.com/downloads)，
-
-下載完成後打開它
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/1.png)
-
-## 第二步
-
-你必須將你的程式碼選擇在一個資料夾存放，以我為例，我是放在**大學資料**中的BLOG的資料夾中，
-
-因此，以我為例，我會在我的bash打:
-
+一開始從最基礎的檢視dataframe(df)開始。
+- df.head() # 看前五rows
+- df.info() # 跳出各col是int/float/object/...
+- df.shape  # 看幾x幾
+- df.describe() # mean/median...
+- df.values # 2D Numpy array
+- df.coulmns # 看cols的名稱
+- df.index # 看rows的名稱
+- sort_values("col_a", ascending="True/False") # 針對col_a排序
+    - 可以裝成list, eg. sort_values(["a","b"],ascending=[True,False])
+- df["col_a"] # print出col_a
+    - df[["col_a", "col_b"]]
+- df["new"] = df["old1"] + df["old2"] : 增加col
+- dogs["height_cm"] > 60 # True/False
+    - dogs[dogs["height_cm"] > 60] # print出高度大於60
+    - dogs[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")] #　多個條件
+- 篩選欄位的值
 ```
-cd 'OneDrive - g.ntu.edu.tw'
-cd 大學資料
-cd BLOG
-git clone **自己部落格repository的網址**
-```
-
-所以假設我的repository命名為blog，我這個blog會位在:
-
-**'OneDrive - g.ntu.edu.tw' >> 大學資料 >> BLOG >> blog**
-
-## 第三步
-
-把你想要的主題 clone 進去 BLOG 裡，方法是在 bash 中打 **git clone 網址**
-
-此時你的 BLOG 資料夾裡會有:
-1. 想要用的主題
-2. blog
-
-## 第四步
-
-clone完成後，把主題資料夾裡面的全部東西移到屬於你自己的資料夾(以上面的例子來說即為blog)，並且打開自己的編譯器，找到**_config**，改裡面的url。
-
-以我為例，我是這樣:
-
-baseurl: "/blog"
-
-url: "https://poi0905.github.io"
-
-## 第五步
-
-接者在 bash 裡依序打下列指令:
-
-```
-git add .
-git commit -m"隨意(可以輸日期、或做了什麼事情)"
-git push
+colors = ["brown", "black", "tan"] # 只要這些顏色
+condition = dogs["color"].isin(colors)
+dogs[condition] # only brown, black, tan dog
 ```
 
-## 第六步
+## Aggregating Data
 
-基本上，這樣就大功告成了。
+進入到敘述性統計
+- df["column"].mean() # 取那個col的平均，類似的有max/min/median
+- df["column"].agg(function) # agg是用來套入function
+```
+# Import NumPy and create custom IQR function
+import numpy as np
+def iqr(column):
+   return column.quantile(0.75) - column.quantile(0.25)
 
-不過要注意的是並不是每個theme都是這樣改，有些有不同的改法，或者不用改，這些都是有可能的。
+# Update to print IQR and median of temperature_c, fuel_price_usd_per_l, & unemployment
+print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr, np.median]))
+```
+|         | temperature_c | fuel_price_usd_per_l | unemployment |
+|---------|---------------|----------------------|------------- |
+| iqr     |    16.583     |     0.073            |     0.565    |
+| median  |    16.967     |     0.743            |     8.099    |
+- df["column"].cumsum() # 累加column的值
+- df["column"].cummax() # 依照每一列記錄下當前的max
+|         | date         | weekly_sales | cum_weekly_sales | cum_max_sale |
+|---------|--------------|--------------|------------------|--------------|
+| 0       | 2010-02-05   | 24924.50     | 24924.50         | 24924.50     |
+| 1       | 2010-03-05   | 21827.90     | 46752.40         | 24924.50     |
+| 2       | 2010-04-02   | 57258.43     | 104010.83        | 57258.43     |
+| 3       | 2010-05-07   | 17413.94     | 121424.77        | 57258.43     |
+| 4       | 2010-06-04   | 17558.09     | 138982.86        | 57258.43     |
+- df.drop_duplicates(subset="column") # 針對column把重複項刪除
+- df.drop_duplicates(subset=["column1","column2"]) # 兩個col都一樣才刪
+- df["column"].value_counts() # 算各項出現幾次
+    - df["column"].value_counts(normalize=True) # 算出比例
+    - df["column"].value_counts(sort=True) # sort
+- df.groupby("color")["weight"].mean() # 算出在不同顏色下不同的平均重量
+- df.groupby("color")["weight"].agg([min, max, sum]) # 一次有三個數值
+- df.groupby(["color", "breed"])["weight"].mean() 
+- df.pivot_table(values="kg", index="color", aggfunc=[np.mean, np.median]) # 跑出像是**樞紐分析表**的東西(aggfunc預設是平均)
+- df.pivot_table(values="kg", index="color", columns="breed") # 空值會是NaN，若想空值補零就加 fill_value=0，多加margins=True會多出一列與一行，顯示各row/column的平均值
 
-因此有問題的話可以問我(我有能力的話XD)
 
-**記得隨時要注意自己目前在什麼位子喔!**
+## Slicing and Indexing
 
-下面放個圖當作參考
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/2.jpg)
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/3.jpg)
+## Creating and Visualizing DataFrames
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/4.jpg)
 
