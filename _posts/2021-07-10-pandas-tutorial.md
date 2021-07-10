@@ -24,33 +24,33 @@ categories: [教學]
 ## Transforming Data
 
 一開始從最基礎的檢視dataframe(df)開始。
-- df.head() # 看前五rows
-- df.info() # 跳出各col是int/float/object/...
-- df.shape  # 看幾x幾
-- df.describe() # mean/median...
-- df.values # 2D Numpy array
-- df.coulmns # 看cols的名稱
-- df.index # 看rows的名稱
-- df.sort_values("col_a", ascending="True/False") # 針對col_a排序
+- df.head()  # 看前五rows
+- df.info()  # 跳出各col是int/float/object/...
+- df.shape   # 看幾x幾
+- df.describe()  # mean/median...
+- df.values  # 2D Numpy array
+- df.coulmns  # 看cols的名稱
+- df.index  # 看rows的名稱
+- df.sort_values("col_a", ascending="True/False")  # 針對col_a排序
     - 可以裝成list, eg. sort_values(["a","b"],ascending=[True,False])
-- df["col_a"] # print出col_a
+- df["col_a"]  # print出col_a
     - df[["col_a", "col_b"]]
-- df["new"] = df["old1"] + df["old2"] # 增加col
-- df["height_cm"] > 60 # True/False
-    - df[df["height_cm"] > 60] # print出高度大於60
-    - df[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")] # 多個條件
+- df["new"] = df["old1"] + df["old2"]  # 增加col
+- df["height_cm"] > 60  # True/False
+    - df[df["height_cm"] > 60]  # print出高度大於60
+    - df[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")]  # 多個條件
 - 篩選欄位的值
 ```python
-colors = ["brown", "black", "tan"] # 只要這些顏色
+colors = ["brown", "black", "tan"]  # 只要這些顏色
 condition = dogs["color"].isin(colors)
-dogs[condition] # only brown, black, tan dog
+dogs[condition]  # only brown, black, tan dog
 ```
 
 ## Aggregating Data
 
 進入到敘述性統計
-- df["column"].mean() # 取那個col的平均，類似的有max/min/median
-- df["column"].agg(function) # agg是用來套入function
+- df["column"].mean()  # 取那個col的平均，類似的有max/min/median
+- df["column"].agg(function)  # agg是用來套入function
 ```python
 # Import NumPy and create custom IQR function
 import numpy as np
@@ -65,8 +65,8 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
     median        16.967               0.743            8.099
 ```
 
-- df["column"].cumsum() # 累加column的值
-- df["column"].cummax() # 依照每一列記錄下當前的max
+- df["column"].cumsum()  # 累加column的值
+- df["column"].cummax()  # 依照每一列記錄下當前的max
 ```
              date     weekly_sales  cum_weekly_sales  cum_max_sales
     0  2010-02-05      24924.50          24924.50       24924.50
@@ -76,20 +76,26 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
     4  2010-06-04      17558.09         138982.86       57258.43
     5  2010-07-02      16333.14         155316.00       57258.43
 ```
-- df.drop_duplicates(subset="column") # 針對column把重複項刪除
-- df.drop_duplicates(subset=["column1","column2"]) # 兩個col都一樣才刪
-- df["column"].value_counts() # 算各項出現幾次
-    - df["column"].value_counts(normalize=True) # 算出比例
-    - df["column"].value_counts(sort=True) # sort
-- df.groupby("color")["weight"].mean() # 算出在不同顏色下不同的平均重量
-- df.groupby("color")["weight"].agg([min, max, sum]) # 一次有三個數值
+- df.drop_duplicates(subset="column")  # 針對column把重複項刪除
+- df.drop_duplicates(subset=["column1","column2"])  # 兩個col都一樣才刪
+- df["column"].value_counts()  # 算各項出現幾次
+    - df["column"].value_counts(normalize=True)  # 算出比例
+    - df["column"].value_counts(sort=True)  # sort
+- df.groupby("color")["weight"].mean()  # 算出在不同顏色下不同的平均重量
+- df.groupby("color")["weight"].agg([min, max, sum])  # 一次有三個數值
 - df.groupby(["color", "breed"])["weight"].mean() 
-- df.pivot_table(values="kg", index="color", aggfunc=[np.mean, np.median]) # 跑出像是**樞紐分析表**的東西(aggfunc預設是平均)
-- df.pivot_table(values="kg", index="color", columns="breed") # 空值會是NaN，若想空值補零就加 fill_value=0，多加margins=True會多出一列與一行，顯示各row/column的平均值
+- df.pivot_table(values="kg", index="color", aggfunc=[np.mean, np.median])  # 跑出像是**樞紐分析表**的東西(aggfunc預設是平均)
+- df.pivot_table(values="kg", index="color", columns="breed")  # 空值會是NaN，若想空值補零就加 fill_value=0，多加margins=True會多出一列與一行，顯示各row/column的平均值
 
 
 ## Slicing and Indexing
 
+- pd_ind = pd.set_index("name")  # 設定index
+    - pd_ind.loc[["name1", "name2"]]  # 設定index的好處就是能快速找到name1和name2的rows
+- pd_ind1 = pd.set_index(["breed", "color"])  # 也可以同時有兩個
+    - pd_ind1.loc[("breed1", "Brown"), ("breed2", "Tan")]  # 用tuple來找交集的row
+- pd_ind.reset_index()  # 重新回到原本pd的樣子
+    - pd_ind.reset_index(drop=True)  # 多把name那個col刪掉
 
 
 ## Creating and Visualizing DataFrames
