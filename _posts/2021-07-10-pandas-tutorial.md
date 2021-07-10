@@ -31,16 +31,16 @@ categories: [教學]
 - df.values # 2D Numpy array
 - df.coulmns # 看cols的名稱
 - df.index # 看rows的名稱
-- sort_values("col_a", ascending="True/False") # 針對col_a排序
+- df.sort_values("col_a", ascending="True/False") # 針對col_a排序
     - 可以裝成list, eg. sort_values(["a","b"],ascending=[True,False])
 - df["col_a"] # print出col_a
     - df[["col_a", "col_b"]]
 - df["new"] = df["old1"] + df["old2"] # 增加col
-- dogs["height_cm"] > 60 # True/False
-    - dogs[dogs["height_cm"] > 60] # print出高度大於60
-    - dogs[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")] # 多個條件
+- df["height_cm"] > 60 # True/False
+    - df[df["height_cm"] > 60] # print出高度大於60
+    - df[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")] # 多個條件
 - 篩選欄位的值
-```
+```python
 colors = ["brown", "black", "tan"] # 只要這些顏色
 condition = dogs["color"].isin(colors)
 dogs[condition] # only brown, black, tan dog
