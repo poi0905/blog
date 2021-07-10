@@ -51,7 +51,7 @@ dogs[condition] # only brown, black, tan dog
 進入到敘述性統計
 - df["column"].mean() # 取那個col的平均，類似的有max/min/median
 - df["column"].agg(function) # agg是用來套入function
-```
+```python
 # Import NumPy and create custom IQR function
 import numpy as np
 def iqr(column):
