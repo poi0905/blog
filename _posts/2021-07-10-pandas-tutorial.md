@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python中pandas常用語法
+title: Python中pandas的常用語法
 summary: 這篇文章將分享我在datacamp上學習pandas時的筆記(還是怕自己以後忘記...)
 featured-img: pandas
 categories: [教學]
