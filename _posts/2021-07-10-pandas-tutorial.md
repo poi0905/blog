@@ -118,8 +118,12 @@ Slicing the df
              Moscow 2013-08-01      17.485
              Moscow 2013-09-01         NaN
 ```
-- df.loc[:, "col_x":"col_y"]  # 針對column來slice
+- df.iloc[:, "col_x":"col_y"]  # 針對column來slice
 - df.iloc[2:5, 1:4]  # 對row與column同時來slice
+
+pivot tables & index
+- df.mean(axis="index")  # 替index算平均
+- df.mean(axis="columns")  # 替columns算平均
 
 
 ## Creating and Visualizing DataFrames
