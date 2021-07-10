@@ -90,11 +90,12 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 
 ## Slicing and Indexing
 
+如何設定index與相關操作
 - pd_ind = pd.set_index("name")  # 設定index
     - pd_ind.loc[["name1", "name2"]]  # 設定index的好處就是能快速找到name1和name2的rows
-- pd_ind1 = pd.set_index(["breed", "color"])  # 也可以同時有兩個
-    - pd_ind1 = pd.set_index(["breed", "color"], ascending=[True, False])
-    - pd_ind1.loc[("breed1", "Brown"), ("breed2", "Tan")]  # 用tuple來找交集的row
+    - pd_ind1 = pd.set_index(["breed", "color"])  # 也可以同時有兩個
+        - pd_ind1 = pd.set_index(["breed", "color"], ascending=[True, False])  # sort
+        - pd_ind1.loc[("breed1", "Brown"), ("breed2", "Tan")]  # 用tuple來找交集的rows
 - pd_ind.reset_index()  # 重新回到原本pd的樣子
     - pd_ind.reset_index(drop=True)  # 多把name那個col刪掉
 
