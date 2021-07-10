@@ -56,23 +56,22 @@ dogs[condition] # only brown, black, tan dog
 import numpy as np
 def iqr(column):
    return column.quantile(0.75) - column.quantile(0.25)
-
 # Update to print IQR and median of temperature_c, fuel_price_usd_per_l, & unemployment
 print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr, np.median]))
 ```
-|         | temperature_c | fuel_price_usd_per_l | unemployment |
-|---------|---------------|----------------------|------------- |
-| iqr     |    16.583     |     0.073            |     0.565    |
-| median  |    16.967     |     0.743            |     8.099    |
+|                      | temperature_c        | fuel_price_usd_per_l | unemployment         |
+|----------------------|----------------------|----------------------|----------------------|
+| iqr                  |    16.583            |     0.073            |     0.565            |
+| median               |    16.967            |     0.743            |     8.099            |
 - df["column"].cumsum() # 累加column的值
 - df["column"].cummax() # 依照每一列記錄下當前的max
-|         | date         | weekly_sales | cum_weekly_sales | cum_max_sale |
-|---------|--------------|--------------|------------------|--------------|
-| 0       | 2010-02-05   | 24924.50     | 24924.50         | 24924.50     |
-| 1       | 2010-03-05   | 21827.90     | 46752.40         | 24924.50     |
-| 2       | 2010-04-02   | 57258.43     | 104010.83        | 57258.43     |
-| 3       | 2010-05-07   | 17413.94     | 121424.77        | 57258.43     |
-| 4       | 2010-06-04   | 17558.09     | 138982.86        | 57258.43     |
+|                  | date             | weekly_sales     | cum_weekly_sales | cum_max_sale     |
+|------------------|------------------|------------------|------------------|------------------|
+| 0                | 2010-02-05       | 24924.50         | 24924.50         | 24924.50         |
+| 1                | 2010-03-05       | 21827.90         | 46752.40         | 24924.50         |
+| 2                | 2010-04-02       | 57258.43         | 104010.83        | 57258.43         |
+| 3                | 2010-05-07       | 17413.94         | 121424.77        | 57258.43         |
+| 4                | 2010-06-04       | 17558.09         | 138982.86        | 57258.43         |
 - df.drop_duplicates(subset="column") # 針對column把重複項刪除
 - df.drop_duplicates(subset=["column1","column2"]) # 兩個col都一樣才刪
 - df["column"].value_counts() # 算各項出現幾次
