@@ -91,13 +91,35 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 ## Slicing and Indexing
 
 如何設定index與相關操作
-- pd_ind = pd.set_index("name")  # 設定index
+- pd_ind = pd.set_index("name")  # 設定index，此處把name當作index
+    - df.sort_index(level="column1", ascending=False)  # 對index中的column1做sort(descending)
     - pd_ind.loc[["name1", "name2"]]  # 設定index的好處就是能快速找到name1和name2的rows
     - pd_ind1 = pd.set_index(["breed", "color"])  # 也可以同時有兩個
         - pd_ind1 = pd.set_index(["breed", "color"], ascending=[True, False])  # sort
         - pd_ind1.loc[("breed1", "Brown"), ("breed2", "Tan")]  # 用tuple來找交集的rows
 - pd_ind.reset_index()  # 重新回到原本pd的樣子
     - pd_ind.reset_index(drop=True)  # 多把name那個col刪掉
+
+Slicing the df
+- pd.loc["index_x":"index_y"]  # 這也是為什麼要先sort過，再來slice，這會得到index_x到index_y的資料
+- df.loc[("country1", "city1"):("country2", "city2")]  # 仍然針對index來做篩選，值得注意適用在多個index的情況下
+```
+                          date  avg_temp_c
+    country  city                         
+    Pakistan Lahore 2000-01-01      12.792
+             Lahore 2000-02-01      14.339
+             Lahore 2000-03-01      20.309
+             Lahore 2000-04-01      29.072
+             Lahore 2000-05-01      34.845
+    ...                    ...         ...
+    Russia   Moscow 2013-05-01      16.152
+             Moscow 2013-06-01      18.718
+             Moscow 2013-07-01      18.136
+             Moscow 2013-08-01      17.485
+             Moscow 2013-09-01         NaN
+```
+- df.loc[:, "col_x":"col_y"]  # 針對column來slice
+- df.iloc[2:5, 1:4]  # 對row與column同時來slice
 
 
 ## Creating and Visualizing DataFrames
