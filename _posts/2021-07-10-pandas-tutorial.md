@@ -176,3 +176,4 @@ dict_of_lists = {
 ```
     - key = column name
     - value = list of column values
+    - pd.DataFrame(dict_of_lists)
