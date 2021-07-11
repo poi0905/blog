@@ -129,7 +129,7 @@ pivot tables & index
 ## Creating and Visualizing DataFrames
 
 最後使用matplotlib.pyplot來作圖
-- df["column1"].hist()  # histograms
+- df["column1"].hist()  # histograms(**要先group完!!!**)
     - df["column1"].hist(bins=k)  # 設定bar的數量
     - df["column1"].hist(alpha=0.7)  # 設定透明度，0為完全透明，1為完全不透明
     - df[df["sex"]=="F"]["cm"].hist()  # 篩選出女生高度
@@ -137,3 +137,4 @@ pivot tables & index
 - df.plot(kind="bar", title="test")  # bar plot
 - df.plot(x="date", y="kg", kind="line")  # line plots:顯現時間趨勢
 - df.plot(x="cm", y="kg", kind="scatter")  # scatter plot:適合用在檢視兩變數關係
+- plt.show()  # print
