@@ -131,6 +131,7 @@ pivot tables & index
 最後使用matplotlib.pyplot來作圖
 - df["column1"].hist()  # histograms
     - df["column1"].hist(bins=k)  # 設定bar的數量
+    - df["column1"].hist(alpha=0.7)  # 設定透明度，0為完全透明，1為完全不透明
     - df[df["sex"]=="F"]["cm"].hist()  # 篩選出女生高度
     - plt.legend(["F","M"])  # 使用時機: 在一張圖同時有兩個變量時給予顏色(此例為兩變量為男性與女性)
 - df.plot(kind="bar", title="test")  # bar plot
