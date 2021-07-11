@@ -128,4 +128,11 @@ pivot tables & index
 
 ## Creating and Visualizing DataFrames
 
-
+最後使用matplotlib.pyplot來作圖
+- df["column1"].hist()  # histograms
+    - df["column1"].hist(bins=k)  # 設定bar的數量
+    - df[df["sex"]=="F"]["cm"].hist()  # 篩選出女生高度
+    - plt.legend(["F","M"])  # 使用時機: 在一張圖同時有兩個變量時給予顏色(此例為兩變量為男性與女性)
+- df.plot(kind="bar", title="test")  # bar plot
+- df.plot(x="date", y="kg", kind="line")  # line plots:顯現時間趨勢
+- df.plot(x="cm", y="kg", kind="scatter")  # scatter plot:適合用在檢視兩變數關係
