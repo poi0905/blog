@@ -90,7 +90,7 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 
 ## Slicing and Indexing
 
-*如何設定index與相關操作*
+*Setting Index*
 - pd_ind = pd.set_index("name")  # 設定index，此處把name當作index
     - df.sort_index(level="column1", ascending=False)  # 對index中的column1做sort(descending)
     - pd_ind.loc[["name1", "name2"]]  # 設定index的好處就是能快速找到name1和name2的rows
@@ -121,7 +121,7 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 - df.iloc[:, "col_x":"col_y"]  # 針對column來slice
 - df.iloc[2:5, 1:4]  # 對row與column同時來slice
 
-pivot tables & index
+*pivot tables & index*
 - df.mean(axis="index")  # 替index算平均
 - df.mean(axis="columns")  # 替columns算平均
 
