@@ -21,9 +21,7 @@ categories: [教學]
 
 ***
 
-## Transforming Data
-
-***
+1. ## Transforming Data
 
 **一開始從最基礎的檢視dataframe(df)開始。**
 - df.head()  # 看前五rows
@@ -48,9 +46,7 @@ condition = dogs["color"].isin(colors)
 dogs[condition]  # only brown, black, tan dog
 ```
 
-## Aggregating Data
-
-***
+2. ## Aggregating Data
 
 **進入到敘述性統計**
 - df["column"].mean()  # 取那個col的平均，類似的有max/min/median
@@ -92,9 +88,7 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 - df.pivot_table(values="kg", index="color", columns="breed")  # 空值會是NaN，若想空值補零就加 fill_value=0，多加margins=True會多出一列與一行，顯示各row/column的平均值
 
 
-## Slicing and Indexing
-
-***
+3. ## Slicing and Indexing
 
 **如何設定index與相關操作**
 - pd_ind = pd.set_index("name")  # 設定index，此處把name當作index
@@ -132,9 +126,7 @@ pivot tables & index
 - df.mean(axis="columns")  # 替columns算平均
 
 
-## Creating and Visualizing DataFrames
-
-***
+4. ## Creating and Visualizing DataFrames
 
 **最後使用matplotlib.pyplot來作圖**
 - df["column1"].hist()  # histograms(**要先group完!!!**)
@@ -155,7 +147,7 @@ pivot tables & index
 - df.dropna()  # 直接不要那行資料
 - df.fillna(0)  # NaN填0
 
-**Creating DataFrames-two ways**
+**Two Ways of Creating DataFrames**
 - From a list of dicts
     - row by row
 ```python
@@ -177,3 +169,5 @@ dict_of_lists = {
     - key = column name
     - value = list of column values
     - pd.DataFrame(dict_of_lists)
+
+**Reading and writing CSVs**
