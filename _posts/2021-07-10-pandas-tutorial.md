@@ -23,7 +23,7 @@ categories: [教學]
 
 ## Transforming Data
 
-*一開始從最基礎的檢視dataframe(df)開始。*
+*Intro of df*
 - df.head()  # 看前五rows
 - df.info()  # 跳出各col是int/float/object/...
 - df.shape   # 看幾x幾
@@ -36,6 +36,7 @@ categories: [教學]
 - df["col_a"]  # print出col_a
     - df[["col_a", "col_b"]]
 - df["new"] = df["old1"] + df["old2"]  # 增加col
+*Subsetting*
 - df["height_cm"] > 60  # True/False
     - df[df["height_cm"] > 60]  # print出高度大於60
     - df[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")]  # 多個條件
@@ -48,7 +49,7 @@ dogs[condition]  # only brown, black, tan dog
 
 ## Aggregating Data
 
-*進入到敘述性統計*
+*Summary statistics*
 - df["column"].mean()  # 取那個col的平均，類似的有max/min/median
 - df["column"].agg(function)  # agg是用來套入function
 ```python
@@ -128,7 +129,7 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 
 ## Creating and Visualizing DataFrames
 
-*最後使用matplotlib.pyplot來作圖*
+*Using matplotlib.pyplot to visualize*
 - df["column1"].hist()  # histograms(**要先group完!!!**)
     - df["column1"].hist(bins=k)  # 設定bar的數量
     - df["column1"].hist(alpha=0.7)  # 設定透明度，0為完全透明，1為完全不透明
@@ -139,7 +140,7 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 - df.plot(x="cm", y="kg", kind="scatter")  # scatter plot:適合用在檢視兩變數關係
 - plt.show()  # print
 
-*處理缺失值*
+*Dealing with missing data*
 - df.isna()  # return True/False, True 代表缺失
     - df.isna().any()  # 看整個column中，有沒有任何缺失值
     - df.isna().sum()  # 算整個column中，缺失值共有幾個
