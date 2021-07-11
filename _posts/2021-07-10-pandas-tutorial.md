@@ -21,9 +21,9 @@ categories: [教學]
 
 ***
 
-### Transforming Data
+## Transforming Data
 
-**一開始從最基礎的檢視dataframe(df)開始。**
+*一開始從最基礎的檢視dataframe(df)開始。*
 - df.head()  # 看前五rows
 - df.info()  # 跳出各col是int/float/object/...
 - df.shape   # 看幾x幾
@@ -46,9 +46,9 @@ condition = dogs["color"].isin(colors)
 dogs[condition]  # only brown, black, tan dog
 ```
 
-### Aggregating Data
+## Aggregating Data
 
-**進入到敘述性統計**
+*進入到敘述性統計*
 - df["column"].mean()  # 取那個col的平均，類似的有max/min/median
 - df["column"].agg(function)  # agg是用來套入function
 ```python
@@ -88,9 +88,9 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 - df.pivot_table(values="kg", index="color", columns="breed")  # 空值會是NaN，若想空值補零就加 fill_value=0，多加margins=True會多出一列與一行，顯示各row/column的平均值
 
 
-### Slicing and Indexing
+## Slicing and Indexing
 
-**如何設定index與相關操作**
+*如何設定index與相關操作*
 - pd_ind = pd.set_index("name")  # 設定index，此處把name當作index
     - df.sort_index(level="column1", ascending=False)  # 對index中的column1做sort(descending)
     - pd_ind.loc[["name1", "name2"]]  # 設定index的好處就是能快速找到name1和name2的rows
@@ -100,7 +100,7 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 - pd_ind.reset_index()  # 重新回到原本pd的樣子
     - pd_ind.reset_index(drop=True)  # 多把name那個col刪掉
 
-**Slicing the df**
+*Slicing the df*
 - pd.loc["index_x":"index_y"]  # 這也是為什麼要先sort過，再來slice，這會得到index_x到index_y的資料
 - df.loc[("country1", "city1"):("country2", "city2")]  # 仍然針對index來做篩選，值得注意適用在多個index的情況下
 ```
@@ -126,9 +126,9 @@ pivot tables & index
 - df.mean(axis="columns")  # 替columns算平均
 
 
-### Creating and Visualizing DataFrames
+## Creating and Visualizing DataFrames
 
-**最後使用matplotlib.pyplot來作圖**
+*最後使用matplotlib.pyplot來作圖*
 - df["column1"].hist()  # histograms(**要先group完!!!**)
     - df["column1"].hist(bins=k)  # 設定bar的數量
     - df["column1"].hist(alpha=0.7)  # 設定透明度，0為完全透明，1為完全不透明
@@ -139,7 +139,7 @@ pivot tables & index
 - df.plot(x="cm", y="kg", kind="scatter")  # scatter plot:適合用在檢視兩變數關係
 - plt.show()  # print
 
-**處理缺失值**
+*處理缺失值*
 - df.isna()  # return True/False, True 代表缺失
     - df.isna().any()  # 看整個column中，有沒有任何缺失值
     - df.isna().sum()  # 算整個column中，缺失值共有幾個
@@ -147,7 +147,7 @@ pivot tables & index
 - df.dropna()  # 直接不要那行資料
 - df.fillna(0)  # NaN填0
 
-**Two Ways of Creating DataFrames**
+*Two Ways of Creating DataFrames*
 - From a list of dicts
     - row by row
 ```python
@@ -170,7 +170,7 @@ dict_of_lists = {
     - value = list of column values
     - pd.DataFrame(dict_of_lists)
 
-**Reading and writing CSVs**
+*Reading and writing CSVs*
 ```python
 # CSV to DataFrame
 import pandas as pd
