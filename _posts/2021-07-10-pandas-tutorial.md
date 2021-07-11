@@ -171,3 +171,11 @@ dict_of_lists = {
     - pd.DataFrame(dict_of_lists)
 
 **Reading and writing CSVs**
+```python
+# CSV to DataFrame
+import pandas as pd
+newfile = pd.read_csv("newfile.csv")
+print(newfile)
+# DataFrame to CSV
+newfile.to_csv("newfile.csv")
+```
