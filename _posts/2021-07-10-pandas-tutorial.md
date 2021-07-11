@@ -154,3 +154,25 @@ pivot tables & index
     - df.isna().sum().plot(kind="bar")
 - df.dropna()  # 直接不要那行資料
 - df.fillna(0)  # NaN填0
+
+**Creating DataFrames-two ways**
+- From a list of dicts
+    - row by row
+```python
+list_of_dicts = [
+    {"name": "A", "grade": 90},
+    {"name": "B" "grade": 85},
+    {"name": "C", "grade": 80}
+]
+```
+    - pd.DataFrame(list_of_dicts)
+- From a dict of lists
+    - col by col
+```python
+dict_of_lists = {
+    "name": ["A", "B", "C"],
+    "grade": [90, 85, 80]
+}
+```
+    - key = column name
+    - value = list of column values
