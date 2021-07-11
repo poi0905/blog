@@ -36,6 +36,7 @@ categories: [教學]
 - df["col_a"]  # print出col_a
     - df[["col_a", "col_b"]]
 - df["new"] = df["old1"] + df["old2"]  # 增加col
+
 *Subsetting*
 - df["height_cm"] > 60  # True/False
     - df[df["height_cm"] > 60]  # print出高度大於60
