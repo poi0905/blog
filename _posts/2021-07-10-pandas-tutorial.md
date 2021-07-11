@@ -86,6 +86,8 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 - df.groupby("color")["weight"].mean()  # 算出在不同顏色下不同的平均重量
 - df.groupby("color")["weight"].agg([min, max, sum])  # 一次有三個數值
 - df.groupby(["color", "breed"])["weight"].mean() 
+
+*Pivot tables*
 - df.pivot_table(values="kg", index="color", aggfunc=[np.mean, np.median])  # 跑出像是**樞紐分析表**的東西(aggfunc預設是平均)
 - df.pivot_table(values="kg", index="color", columns="breed")  # 空值會是NaN，若想空值補零就加 fill_value=0，多加margins=True會多出一列與一行，顯示各row/column的平均值
 
