@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pandas常用語法
-summary: 資料科學最基礎的功夫!
+summary: 資料科學中最基礎的功夫!
 featured-img: pandas
 categories: [Python]
 ---
