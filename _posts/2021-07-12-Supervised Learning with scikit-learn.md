@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Pandas常用語法
+title: Supervised Learning with scikit-learn
 summary: 這篇文章將分享我在datacamp上學習pandas時的筆記(還是怕自己以後忘記...)
 featured-img: pandas
-categories: [Python]
+categories: [python]
 ---
 
 # 前言
