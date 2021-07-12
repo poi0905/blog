@@ -26,4 +26,17 @@ Supervised learning 與 Unsupervised learning 最大的差別在於要不要主�
 
 ## Classification
 
+*EDA(Exploratory data analysis)*
 
+- load the dataset
+```python
+from sklearn import datasets
+iris = datasets.load_iris()
+```
+- visual EDA
+```python
+x = iris.data
+y = iris.target
+df = pd.DataFrame(X, columns=iris.feature_names)
+_ = pd.plotting.scatter_matrix(df, c=y, figsize=[8, 8], s=150, marker="D")
+```
