@@ -20,9 +20,9 @@ social:
 # THEME SETTINGS
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
+  - {name: 'Category', link: '/Categories'}
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
-  - {name: 'Category', link: '/Categories'}
 
 tagline: >  
    Just some random stuff of my life...
