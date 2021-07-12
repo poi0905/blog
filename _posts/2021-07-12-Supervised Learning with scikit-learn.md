@@ -2,7 +2,7 @@
 layout: post
 title: 使用scikit-learn來執行監督式學習
 summary: datacamp學習筆記
-featured-img: pandas
+featured-img: sklearn
 categories: [python]
 ---
 
@@ -18,6 +18,7 @@ categories: [python]
 
 而這個決定並不是依賴明確的編碼而產生的過程。
 
+Supervised learning 與 Unsupervised learning 最大的差別在於要不要主動去貼標這件事。
 
 # Supervised Learning with scikit-learn
 
