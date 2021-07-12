@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Supervised Learning with scikit-learn
+title: 使用scikit-learn來執行監督式學習
 summary: datacamp學習筆記
 featured-img: pandas
 categories: [python]
