@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Supervised Learning with scikit-learn
-summary: 這篇文章將分享我在datacamp上學習pandas時的筆記(還是怕自己以後忘記...)
+summary: datacamp學習筆記
 featured-img: pandas
 categories: [python]
 ---

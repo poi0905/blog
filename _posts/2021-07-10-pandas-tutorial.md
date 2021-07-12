@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pandas常用語法
-summary: 這篇文章將分享我在datacamp上學習pandas時的筆記(還是怕自己以後忘記...)
+summary: 資料科學最基礎的功夫!
 featured-img: pandas
 categories: [Python]
 ---
