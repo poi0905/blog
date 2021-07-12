@@ -14,4 +14,8 @@ permalink: /about/
 
 興趣是打遊戲、健身、拍照偷用力、假裝很會打扣、睡覺、出遠遊、合理化自己耍廢的事情。
 
-目前人生無特別成就，比較能說嘴的應該是去過美國一年，不過都在耍廢就是了拉。
+目前人生無特別成就，比較能說嘴的應該是去過美國一年，不過主要以體驗生活為主就是了。
+
+[CV]](https://drive.google.com/file/d/1VzfDufJRKNgg2mxgAkYieUOrPFzO9I5L/view?usp=sharing)
+
+
