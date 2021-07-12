@@ -40,3 +40,13 @@ y = iris.target
 df = pd.DataFrame(X, columns=iris.feature_names)
 _ = pd.plotting.scatter_matrix(df, c=y, figsize=[8, 8], s=150, marker="D")
 ```
+- target variable 也就是y值，換句話說就是要預測的值。
+- 當features的值是binary時，可以用**Seaborn's countplot**來進行EDA。
+```python
+plt.figure()
+# x=feature, hue=y, palette=color of the bar
+sns.countplot(x='education', hue='party', data=df, palette='RdBu')
+# 0 represent no, 1 represent yes
+plt.xticks([0,1], ['No', 'Yes'])
+plt.show()  # outcome的x軸會是education，分別是No跟Yes，且在No跟Yes上分別各有兩個bars，indicate出兩parties各有多少人數(party只有民主黨跟共和黨)
+```
