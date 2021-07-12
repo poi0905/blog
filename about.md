@@ -6,7 +6,7 @@ permalink: /about/
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/me.jpg)
 
-1998年生，來自桃園，目前就讀於國立台灣大學財務金融學系雙主修政治學系國際關係組大三。
+1998年生，來自桃園，目前就讀於國立台灣大學財務金融學系雙主修政治學系國際關係組大四。
 
 會寫這個部落格是因為想記錄一下生活，免得過了幾年後人家問我大學在幹嘛時只能回答說在打game。
 
