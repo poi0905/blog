@@ -6,6 +6,17 @@ featured-img: sklearn
 categories: [python]
 ---
 
+# 目錄
+
+***
+
+0. [前言](#前言)
+
+1. [Classification](#Classification)
+
+
+
+<a name="前言"/>
 # 前言
 
 ***
@@ -20,11 +31,10 @@ categories: [python]
 
 Supervised learning 與 Unsupervised learning 最大的差別在於要不要主動去貼標這件事。
 
-# Supervised Learning with scikit-learn
+
+# Classification
 
 ***
-
-## Classification
 
 *EDA(Exploratory data analysis)*
 
