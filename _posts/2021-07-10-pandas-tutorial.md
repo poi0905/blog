@@ -28,7 +28,7 @@ categories: [Python]
 - df.info()  # 跳出各col是int/float/object/...
 - df.shape   # 看幾x幾
 - df.describe()  # mean/median...
-- df.values  # 2D Numpy array
+- **df.values**  # 2D Numpy array，**丟入模型常用**
 - df.coulmns  # 看cols的名稱
 - df.index  # 看rows的名稱
 - df.sort_values("col_a", ascending="True/False")  # 針對col_a排序
@@ -78,6 +78,7 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
     4  2010-06-04      17558.09         138982.86       57258.43
     5  2010-07-02      16333.14         155316.00       57258.43
 ```
+- df.drop("col1", axis=0)  # axis=0表示刪除row，axis=1表示刪除column，此處為把col1刪掉
 - df.drop_duplicates(subset="column")  # 針對column把重複項刪除
 - df.drop_duplicates(subset=["column1","column2"])  # 兩個col都一樣才刪
 - df["column"].value_counts()  # 算各項出現幾次

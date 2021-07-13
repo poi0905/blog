@@ -52,13 +52,22 @@ plt.show()  # outcome的x軸會是education，分別是No跟Yes，且在No跟Yes
 ```
 
 *classification with KNN*
+
+- by using features to predict which parties would the voter vote to
 ```python
 from sklearn.neighbors import KNeighborsClassifier
-knn = KNeighborsClassifier(n_neighbors=6)  # k = 6
-knn.fit(iris["data"], iris["target"])
-# import new dataset
-X_new = np.array([[5.6, 2.8, 3.9, 1.1], [5.7, 2.6,3.8, 1.3]])
-# throw it into the model
-prediction = knn.predict(X_new)
-print("Predicition:{}".format(prediction))
+# Create arrays for the features and the response variable
+y = df['party'].values
+X = df.drop('party', axis=1).values
+# Create a k-NN classifier with 6 neighbors
+knn = KNeighborsClassifier(n_neighbors=6)
+# Fit the classifier to the data
+knn.fit(X,y)
+# Predict the labels for the training data X
+y_pred = knn.predict(X)
+# Predict and print the label for the new data point X_new
+new_prediction = knn.predict(X_new)
+print("Prediction: {}".format(new_prediction))
 ```
+
+*Measuring model performance*
