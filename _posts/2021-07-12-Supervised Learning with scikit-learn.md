@@ -109,7 +109,7 @@ for i, k in enumerate(neighbors):
     # Fit the classifier to the training data
     knn.fit(X_train, y_train) 
     # Compute accuracy on the training set
-    train_accuracy[i] = knn.score(X_test, y_test)
+    train_accuracy[i] = knn.score(X_train, y_train)
     # Compute accuracy on the testing set
     test_accuracy[i] = knn.score(X_test, y_test)
 # Generate plot
