@@ -50,3 +50,15 @@ sns.countplot(x='education', hue='party', data=df, palette='RdBu')
 plt.xticks([0,1], ['No', 'Yes'])
 plt.show()  # outcome的x軸會是education，分別是No跟Yes，且在No跟Yes上分別各有兩個bars，indicate出兩parties各有多少人數(party只有民主黨跟共和黨)
 ```
+
+*classification with KNN*
+```python
+from sklearn.neighbors import KNeighborsClassifier
+knn = KNeighborsClassifier(n_neighbors=6)  # k = 6
+knn.fit(iris["data"], iris["target"])
+# import new dataset
+X_new = np.array([[5.6, 2.8, 3.9, 1.1], [5.7, 2.6,3.8, 1.3]])
+# throw it into the model
+prediction = knn.predict(X_new)
+print("Predicition:{}".format(prediction))
+```
