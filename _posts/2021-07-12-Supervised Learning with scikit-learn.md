@@ -32,6 +32,7 @@ categories: [python]
 Supervised learning 與 Unsupervised learning 最大的差別在於要不要主動去貼標這件事。
 
 
+<a name="Classification"/>
 # Classification
 
 ***
