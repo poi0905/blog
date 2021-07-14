@@ -229,3 +229,72 @@ print("Average 5-Fold CV Score: {}".format(np.mean(cv_scores)))
 ```
 
 *Regularized regression*
+
+- goals: penalizing large coefficients by *Reqularization* because large coefficients can lead to overfitting
+- **Example 1: ridge regression**
+    - Loss function = OLS loss function + Alpha*sum(coefficients)^2
+    - **(need to select Alpha, like KNN's k)** 
+    - 下例將顯示不同Alpha時獲得不同的score
+```python
+# Import necessary modules
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import cross_val_score
+# Setup the array of alphas and lists to store scores
+alpha_space = np.logspace(-4, 0, 50)
+ridge_scores = []
+ridge_scores_std = []
+# Create a ridge regressor: ridge
+ridge = Ridge(normalize=True)  # 原本會是Ridge(alpha=0.1, normalize=True)，但這裡不寫alpha留到迴圈寫，為的是顯示出不同Alpha時不同的情況
+# Compute scores over range of alphas
+for alpha in alpha_space:
+    # Specify the alpha value to use: ridge.alpha
+    ridge.alpha = alpha
+    # Perform 10-fold CV: ridge_cv_scores
+    ridge_cv_scores = cross_val_score(ridge, X, y, cv=10)
+    # Append the mean of ridge_cv_scores to ridge_scores
+    ridge_scores.append(np.mean(ridge_cv_scores))
+    # Append the std of ridge_cv_scores to ridge_scores_std
+    ridge_scores_std.append(np.std(ridge_cv_scores))
+# Display the plot
+display_plot(ridge_scores, ridge_scores_std)
+```
+- 下面程式碼作為補充
+```python
+def display_plot(cv_scores, cv_scores_std):
+    fig = plt.figure()
+    ax = fig.add_subplot(1,1,1)
+    ax.plot(alpha_space, cv_scores)
+    std_error = cv_scores_std / np.sqrt(10)
+    ax.fill_between(alpha_space, cv_scores + std_error, cv_scores - std_error, alpha=0.2)
+    ax.set_ylabel('CV Score +/- Std Error')
+    ax.set_xlabel('Alpha')
+    ax.axhline(np.max(cv_scores), linestyle='--', color='.5')
+    ax.set_xlim([alpha_space[0], alpha_space[-1]])
+    ax.set_xscale('log')
+    plt.show()
+```
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/Ridge.jpg)
+- **Example 2: Lasso regression**
+    - Loss function = OLS loss function + Alpha*abs(coefficients)
+    - **can be used to select important features of a dataset**
+    - shrinks the coefficients of less important features to exactly 0
+```python
+ # Import Lasso
+from sklearn.linear_model import Lasso
+# Instantiate a lasso regressor: lasso
+lasso = Lasso(alpha=0.4, normalize=True)
+# Fit the regressor to the data
+lasso.fit(X, y)
+# Compute and print the coefficients
+lasso_coef = lasso.fit(X, y).coef_
+print(lasso_coef)
+# output:    [-0.         -0.         -0.          0.          0.          0.
+#     -0.         -0.07087587]
+# Plot the coefficients
+plt.plot(range(len(df_columns)), lasso_coef)
+plt.xticks(range(len(df_columns)), df_columns.values, rotation=60)
+plt.margins(0.02)
+plt.show()
+```
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/lasso_feature_selection.jpg)
+*'child_mortality' is the most important feature when predicting life expectancy.*
