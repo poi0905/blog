@@ -14,6 +14,8 @@ categories: [python]
 
 1. [Classification](#Classification)
 
+2. [Regression](#Regression)
+
 
 
 <a name="前言"/>
@@ -133,3 +135,11 @@ plt.ylabel('Accuracy')
 plt.show()
 ```
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/knn_with_different_k.jpg)
+
+
+<a name="Regression"/>
+# Regression
+
+***
+
+- regression 的 target value(y) 是連續型的變數，如GDP。
