@@ -150,7 +150,7 @@ import numpy as np
 import pandas as pd
 # Read the CSV file into a DataFrame: df
 df = pd.read_csv('gapminder.csv')
-# Create arrays for features and target variable
+# Create arrays for features and target variable(先僅用出生率做出一個單變數回歸)
 X = df['fertility'].values
 y = df['life'].values
 # Print the dimensions of y and X before reshaping
@@ -169,3 +169,63 @@ Dimensions of X before reshaping:  (139,)
 Dimensions of y after reshaping:  (139, 1)
 Dimensions of X after reshaping:  (139, 1)
 ```
+```python
+# Import LinearRegression
+from sklearn.linear_model import LinearRegression
+# Create the regressor: reg
+reg = LinearRegression()
+# Create the prediction space(做出一個等差數列，再轉成matrix，將用來做為測試集)
+prediction_space = np.linspace(min(X_fertility), max(X_fertility)).reshape(-1,1)    
+# Fit the model to the data
+reg.fit(X_fertility, y)
+# Compute predictions over the prediction space: y_pred
+y_pred = reg.predict(prediction_space)
+# Print R^2 (regression用R square來看)
+print(reg.score(X_fertility, y))
+```
+```python
+# Import necessary modules
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import train_test_split
+# Create training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state=42)
+# Create the regressor: reg_all
+reg_all = LinearRegression()
+# Fit the regressor to the training data
+reg_all.fit(X_train, y_train)
+# Predict on the test data: y_pred
+y_pred = reg_all.predict(X_test)
+# Compute and print R^2 and RMSE
+print("R^2: {}".format(reg_all.score(X_test, y_test)))
+rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+print("Root Mean Squared Error: {}".format(rmse))
+```
+```
+    R^2: 0.838046873142936
+    Root Mean Squared Error: 3.2476010800377213
+```
+
+*Cross-validation*
+
+- k folds = k-fold CV
+- more folds = more computationally expensive
+- 好處是不會剛好在切訓練集時特別衰
+```python
+# Import the necessary modules
+from sklearn.linear_model import LinearRegression 
+from sklearn.model_selection import cross_val_score 
+# Create a linear regression object: reg
+reg = LinearRegression()
+# Compute 5-fold cross-validation scores: cv_scores
+cv_scores = cross_val_score(reg, X, y, cv=5)
+# Print the 5-fold cross-validation scores
+print(cv_scores)
+print("Average 5-Fold CV Score: {}".format(np.mean(cv_scores)))
+```
+```
+    [0.81720569 0.82917058 0.90214134 0.80633989 0.94495637]
+    Average 5-Fold CV Score: 0.8599627722793232
+```
+
+*Regularized regression*
