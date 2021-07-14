@@ -143,3 +143,29 @@ plt.show()
 ***
 
 - regression 的 target value(y) 是連續型的變數，如GDP。
+- 以下範例為預測年紀的程式碼
+```python
+# Import numpy and pandas
+import numpy as np
+import pandas as pd
+# Read the CSV file into a DataFrame: df
+df = pd.read_csv('gapminder.csv')
+# Create arrays for features and target variable
+X = df['fertility'].values
+y = df['life'].values
+# Print the dimensions of y and X before reshaping
+print("Dimensions of y before reshaping: ", y.shape)
+print("Dimensions of X before reshaping: ", X.shape)
+# Reshape X and y
+y_reshaped = y.reshape(-1,1)  # 假設原先的array有8個elements，reshape(2,4)將變成2rows,4columns的matrix
+X_reshaped = X.reshape(-1,1)  # reshape填入-1即代表自動計算(給定另一個的數字的情況下)
+# Print the dimensions of y_reshaped and X_reshaped
+print("Dimensions of y after reshaping: ", y_reshaped.shape)
+print("Dimensions of X after reshaping: ", X_reshaped.shape)
+```
+```
+Dimensions of y before reshaping:  (139,)
+Dimensions of X before reshaping:  (139,)
+Dimensions of y after reshaping:  (139, 1)
+Dimensions of X after reshaping:  (139, 1)
+```
