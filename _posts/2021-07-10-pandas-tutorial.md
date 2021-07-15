@@ -96,7 +96,8 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 ## Slicing and Indexing
 
 *Setting Index*
-- pd_ind = pd.set_index("name")  # 設定index，此處把name當作index
+- df.index = list  # 把df的index換成list裡面的element
+    - pd_ind = pd.set_index("name")  # 設定index，此處把name當作index
     - df.sort_index(level="column1", ascending=False)  # 對index中的column1做sort(descending)
     - pd_ind.loc[["name1", "name2"]]  # 設定index的好處就是能快速找到name1和name2的rows
     - pd_ind1 = pd.set_index(["breed", "color"])  # 也可以同時有兩個
