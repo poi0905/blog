@@ -125,7 +125,7 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
              Moscow 2013-09-01         NaN
 ```
 - df.iloc[:, "col_x":"col_y"]  # 針對column來slice
-- df.iloc[2:5, 1:4]  # 對row與column同時來slice
+- df.iloc[2:5, 1:4]  # 對row與column同時來slice(i=index)
 
 *pivot tables & index*
 - df.mean(axis="index")  # 替index算平均
