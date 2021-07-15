@@ -180,7 +180,7 @@ dict_of_lists = {
 ```python
 # CSV to DataFrame
 import pandas as pd
-newfile = pd.read_csv("newfile.csv")
+newfile = pd.read_csv("newfile.csv", index_col=0)   # make the first col as index
 print(newfile)
 # DataFrame to CSV
 newfile.to_csv("newfile.csv")
