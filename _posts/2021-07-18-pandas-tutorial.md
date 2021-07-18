@@ -232,9 +232,9 @@ taxi_own_veh = taxi_owners.merge(taxi_veh, on='vid', suffixes=('_own','_veh'))
 *Merging multiple DataFrames*
 - one-to-many relationships: every row in left table is related to one or more rows in the right table (一對多)
 - 同時merge三個df：
-    - cal有 year, month, day, day_type
-    - ridership有 station_id, year, month, day, rides
-    - stations有 station_id, staton_name, location
+    - cal有 year, month, day, day_type 三個columns
+    - ridership有 station_id, year, month, day, rides 五個columns
+    - stations有 station_id, staton_name, location 三個columns
 ```python
 # Merge the ridership, cal, and stations tables
 ridership_cal_stations = ridership.merge(cal, on=['year','month','day']) \
