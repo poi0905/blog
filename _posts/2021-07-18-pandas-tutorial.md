@@ -222,7 +222,7 @@ newfile.to_csv("newfile.csv")
 ***
 
 *inner join*
-- df1.merge(df2, on='**common**')  # on 是用在兩個df交集的地方
+- df1.merge(df2, on='**common**')  # on 是用在兩個df交集的地方，u**也就是共同部分**
 - suffixes is to avoid multiple columns w/ same name(在兩個df有同樣的名字，因此要作出區別)
 ```python
 # Merge the taxi_owners and taxi_veh tables setting a suffix
@@ -247,4 +247,90 @@ licenses_zip_ward = licenses.merge(zip_demo, on='zip') \
             			.merge(wards, on='ward')
 # Print the results by alderman and show median income
 print(licenses_zip_ward.groupby('alderman').agg({'income':'median'}))
+```
+
+*left join*
+- 僅取left table，意思是**left table有n個row，join後的結果還是n個rows**，只有columns的數量會改變，以左邊為主。
+- how 的預設是inner join，若要改inner為how，則要多打how，範例如下。
+```python
+# Merge the movies table with the financials table with a left join
+movies_financials = movies.merge(financials, on='id', how='left')
+# Count the number of rows in the budget column that are missing
+number_of_missing_fin = movies_financials['budget'].isnull().sum()
+# Print the number of movies missing financials
+print(number_of_missing_fin)
+```
+
+*right join*
+- 以右邊為主(被加入的)
+```python
+# Merge action_movies to the scifi_movies with right join
+action_scifi = action_movies.merge(scifi_movies, on='movie_id', how='right',
+                                   suffixes=('_act','_sci'))
+# From action_scifi, select only the rows where the genre_act column is null
+scifi_only = action_scifi[action_scifi['genre_act'].isnull()]
+# Merge the movies and scifi_only tables with an inner join
+movies_and_scifi_only = movies.merge(scifi_only, left_on='id', right_on='movie_id', how='inner')
+```
+
+*outer join*
+- 最後的table會是兩個table最大的樣子，意思是指假設table1為3*4，table2為2*5，則合併出來是3*5(row和column都取最大)，**保留所有部分**。
+```python
+# Merge iron_1_actors to iron_2_actors on id with outer join using suffixes
+iron_1_and_2 = iron_1_actors.merge(iron_2_actors, on='id', how='outer', suffixes=('_1','_2'))
+```
+
+*Merging a table to itself*
+- 使用時機: 在同個table裡，某一row跟另一個row有關係，這時要把有關係的抓出來，下例是一個director底下很多crew。
+```python
+# Merge the crews table to itself
+crews_self_merged = crews.merge(crews, on='id', how='inner',
+                                suffixes=('_dir','_crew'))
+# Create a boolean index to select the appropriate rows
+boolean_filter = ((crews_self_merged['job_dir'] == 'Director') & 
+                  (crews_self_merged['job_crew'] != 'Director'))
+direct_crews = crews_self_merged[boolean_filter]
+# Print the first few rows of direct_crews
+print(direct_crews.head())
+```
+```
+            id   job_dir       name_dir        job_crew          name_crew
+    156  19995  Director  James Cameron          Editor  Stephen E. Rivkin
+    157  19995  Director  James Cameron  Sound Designer  Christopher Boyes
+    158  19995  Director  James Cameron         Casting          Mali Finn
+    160  19995  Director  James Cameron          Writer      James Cameron
+    161  19995  Director  James Cameron    Set Designer    Richard F. Mays
+```
+
+*Merging on indexes*
+- Example 1:
+```python
+# Merge to the movies table the ratings table on the index
+movies_ratings = movies.merge(ratings, on='id')
+# Print the first few rows of movies_ratings
+print(movies_ratings.head())
+```
+- Example 2: 看續集有沒有賺比較多
+```python
+# Merge sequels and financials on index id
+sequels_fin = sequels.merge(financials, on='id', how='left')
+# Self merge with suffixes as inner join with left on sequel and right on id
+orig_seq = sequels_fin.merge(sequels_fin, how='inner', left_on='sequel', 
+                             right_on='id', right_index=True,
+                             suffixes=('_org','_seq'))
+# Add calculation to subtract revenue_org from revenue_seq 
+orig_seq['diff'] = orig_seq['revenue_seq'] - orig_seq['revenue_org']
+# Select the title_org, title_seq, and diff 
+titles_diff = orig_seq[['title_org','title_seq','diff']]
+# Print the first rows of the sorted titles_diff
+print(titles_diff.sort_values('diff', ascending=False).head())
+```
+```
+                   title_org        title_seq          diff
+    id                                                     
+    331    Jurassic Park III   Jurassic World  1.144748e+09
+    272        Batman Begins  The Dark Knight  6.303398e+08
+    10138         Iron Man 2       Iron Man 3  5.915067e+08
+    863          Toy Story 2      Toy Story 3  5.696028e+08
+    10764  Quantum of Solace          Skyfall  5.224703e+08
 ```
