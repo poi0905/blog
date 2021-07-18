@@ -20,6 +20,8 @@ categories: [Python]
 
 4. [Creating and Visualizing DataFrames](#4)
 
+4. [Data Merging](#5)
+
 
 <a name="前言"/>
 # 前言
@@ -70,6 +72,8 @@ dogs[condition]  # only brown, black, tan dog
 <a name="2"/>
 # Aggregating Data
 
+***
+
 *Summary statistics*
 - df["column"].mean()  # 取那個col的平均，類似的有max/min/median
 - df["column"].agg(function)  # agg是用來套入function
@@ -116,6 +120,8 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 <a name="3"/>
 # Slicing and Indexing
 
+***
+
 *Setting Index*
 - df.index = list  # 把df的index換成list裡面的element
     - pd_ind = pd.set_index("name")  # 設定index，此處把name當作index
@@ -155,6 +161,8 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 
 <a name="4"/>
 # Creating and Visualizing DataFrames
+
+***
 
 *Using matplotlib.pyplot to visualize*
 - df["column1"].hist()  # histograms(**要先group完!!!**)
@@ -207,3 +215,8 @@ print(newfile)
 # DataFrame to CSV
 newfile.to_csv("newfile.csv")
 ```
+
+<a name="4"/>
+# Data Merging
+
+***
