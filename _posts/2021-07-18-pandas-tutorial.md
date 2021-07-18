@@ -224,10 +224,10 @@ newfile.to_csv("newfile.csv")
 *inner join*
 - df1.merge(df2, on='**common**')  # on 是用在兩個df交集的地方
 - suffixes is to avoid multiple columns w/ same name(在兩個df有同樣的名字，因此要作出區別)
-'''python
+```python
 # Merge the taxi_owners and taxi_veh tables setting a suffix
 taxi_own_veh = taxi_owners.merge(taxi_veh, on='vid', suffixes=('_own','_veh'))
-'''
+```
 
 *Merging multiple DataFrames*
 - one-to-many relationships: every row in left table is related to one or more rows in the right table (一對多)
