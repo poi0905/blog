@@ -33,6 +33,7 @@ categories: [Python]
 - **df.values**  # 2D Numpy array，**丟入模型常用**
 - df.coulmns  # 看cols的名稱
 - df.index  # 看rows的名稱
+    - len(df.index)  # total rows of dataframe
 - df.sort_values("col_a", ascending="True/False")  # 針對col_a排序
     - 可以裝成list, eg. sort_values(["a","b"],ascending=[True,False])
 - df["col_a"]  # print出col_a
