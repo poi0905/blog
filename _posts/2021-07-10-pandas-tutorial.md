@@ -16,6 +16,8 @@ categories: [Python]
 
 也讓自己未來在操作時有地方翻語法。
 
+[這裡](https://drive.google.com/file/d/1lstzJz2i2Q3cZ8DSZLmGihgsulljTulj/view?usp=sharing)回憶一下matplotlib和dict等的扣。
+
 
 # Data Manipulation with pandas
 

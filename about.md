@@ -6,7 +6,7 @@ permalink: /about/
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/me.jpg)
 
-[CV](https://drive.google.com/file/d/1VzfDufJRKNgg2mxgAkYieUOrPFzO9I5L/view?usp=sharing)
+[CV](https://drive.google.com/file/d/1rd-EN8TAoXPMtYJAhVG7aTz03BUVqpZY/view?usp=sharing)
 
 1998年生，來自桃園，目前就讀於國立台灣大學財務金融學系雙主修政治學系國際關係組大四。
 
