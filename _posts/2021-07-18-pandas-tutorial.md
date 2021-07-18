@@ -229,5 +229,14 @@ newfile.to_csv("newfile.csv")
 taxi_own_veh = taxi_owners.merge(taxi_veh, on='vid', suffixes=('_own','_veh'))
 '''
 
-*one-to-many relationships*
-- one-to-many: every row in left table is related to one or more rows in the right table (一對多)
+*Merging multiple DataFrames*
+- one-to-many relationships: every row in left table is related to one or more rows in the right table (一對多)
+- 同時merge三個df：
+    - cal有 year, month, day, day_type
+    - ridership有 station_id, year, month, day, rides
+    - stations有 station_id, staton_name, location
+```python
+# Merge the ridership, cal, and stations tables
+ridership_cal_stations = ridership.merge(cal, on=['year','month','day']) \
+							.merge(stations, on='station_id')
+```
