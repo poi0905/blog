@@ -6,6 +6,22 @@ featured-img: pandas
 categories: [Python]
 ---
 
+# 目錄
+
+***
+
+0. [前言](#前言)
+
+1. [Transforming Data](#1)
+
+2. [Aggregating Data](#2)
+
+3. [Slicing and Indexing](#3)
+
+4. [Creating and Visualizing DataFrames](#4)
+
+
+<a name="前言"/>
 # 前言
 
 ***
@@ -19,11 +35,10 @@ categories: [Python]
 [這裡](https://drive.google.com/file/d/1AE_XEhAtSxRu0QnMmnKmUP1bOUYEWVdT/view?usp=sharing)回憶一下matplotlib和dict等的扣。
 
 
-# Data Manipulation with pandas
+<a name="1"/>
+# Transforming Data
 
 ***
-
-## Transforming Data
 
 *Intro of df*
 - df.head()  # 看前五rows
@@ -52,7 +67,8 @@ condition = dogs["color"].isin(colors)
 dogs[condition]  # only brown, black, tan dog
 ```
 
-## Aggregating Data
+<a name="2"/>
+# Aggregating Data
 
 *Summary statistics*
 - df["column"].mean()  # 取那個col的平均，類似的有max/min/median
@@ -97,7 +113,8 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 - df.pivot_table(values="kg", index="color", columns="breed")  # 空值會是NaN，若想空值補零就加 fill_value=0，多加margins=True會多出一列與一行，顯示各row/column的平均值
 
 
-## Slicing and Indexing
+<a name="3"/>
+# Slicing and Indexing
 
 *Setting Index*
 - df.index = list  # 把df的index換成list裡面的element
@@ -136,7 +153,8 @@ print(sales[["temperature_c", "fuel_price_usd_per_l", "unemployment"]].agg([iqr,
 - df.mean(axis="columns")  # 替columns算平均
 
 
-## Creating and Visualizing DataFrames
+<a name="4"/>
+# Creating and Visualizing DataFrames
 
 *Using matplotlib.pyplot to visualize*
 - df["column1"].hist()  # histograms(**要先group完!!!**)
