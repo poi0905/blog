@@ -240,3 +240,12 @@ taxi_own_veh = taxi_owners.merge(taxi_veh, on='vid', suffixes=('_own','_veh'))
 ridership_cal_stations = ridership.merge(cal, on=['year','month','day']) \
 							.merge(stations, on='station_id')
 ```
+- 另外一個範例，搭配groupby和agg
+```python
+# Merge licenses and zip_demo, on zip; and merge the wards on ward
+licenses_zip_ward = licenses.merge(zip_demo, on='zip') \
+            			.merge(wards, on='ward')
+
+# Print the results by alderman and show median income
+print(licenses_zip_ward.groupby('alderman').agg({'income':'median'}))
+```
