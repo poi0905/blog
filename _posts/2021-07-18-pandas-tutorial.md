@@ -362,7 +362,46 @@ id
 ***
 
 *Filtering joins*
-
+- semi-join:
+    - returns the intersection
+    - returns only columns from the left teble and **not** the right
+    - no duplicates
+- anti-join:
+    - returns the left table, excluding the intersection
+    - returns only columns from the left teble and **not** the right
+    - Example: 一個員工管理許多顧客，目標為找出那些沒有對應到高品質顧客的員工
+```python
+# Merge employees and top_cust
+empl_cust = employees.merge(top_cust, on='srid', 
+                                 how='left', indicator=True)
+# Select the srid column where _merge is left_only
+srid_list = empl_cust.loc[empl_cust['_merge'] == 'left_only', 'srid']
+```
+```
+# empl_cust.head() (前面是員工，後面是高品質顧客)
+   srid  lname_x fname_x                title  hire_date  ...    lname_y               phone                 fax                        email_y     _merge
+0     1    Adams  Andrew      General Manager 2002-08-14  ...        NaN                 NaN                 NaN                            NaN  left_only
+1     2  Edwards   Nancy        Sales Manager 2002-05-01  ...        NaN                 NaN                 NaN                            NaN  left_only
+2     3  Peacock    Jane  Sales Support Agent 2002-04-01  ...  Gonçalves  +55 (12) 3923-5555  +55 (12) 3923-5566           luisg@embraer.com.br       both
+3     3  Peacock    Jane  Sales Support Agent 2002-04-01  ...   Tremblay   +1 (514) 721-4711                 NaN            ftremblay@gmail.com       both
+4     3  Peacock    Jane  Sales Support Agent 2002-04-01  ...    Almeida  +55 (21) 2271-7000  +55 (21) 2271-7070  roberto.almeida@riotur.gov.br       both
+-
+# srid_list
+     srid
+0     1
+1     2
+61    6
+62    7
+63    8
+-
+# employees[employees['srid'].isin(srid_list)]
+       srid     lname    fname            title  hire_date                    email
+    0     1     Adams   Andrew  General Manager 2002-08-14   andrew@chinookcorp.com
+    1     2   Edwards    Nancy    Sales Manager 2002-05-01    nancy@chinookcorp.com
+    5     6  Mitchell  Michael       IT Manager 2003-10-17  michael@chinookcorp.com
+    6     7      King   Robert         IT Staff 2004-01-02   robert@chinookcorp.com
+    7     8  Callahan    Laura         IT Staff 2004-03-04    laura@chinookcorp.com
+```
 
 <a name="7"/>
 # Merging Ordered and Time-Series Data
