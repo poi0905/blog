@@ -371,7 +371,7 @@ id
     - returns only columns from the left teble and **not** the right
     - Example: 一個員工管理許多顧客，目標為找出那些沒有對應到高品質顧客的員工
 ```python
-# Merge employees and top_cust(indicator generate the column "_merge")
+# Merge employees and top_cust(indicator generate the column "_merge", ,meaning there's no info from the right table)
 empl_cust = employees.merge(top_cust, on='srid', 
                                  how='left', indicator=True)
 # Select the srid column where _merge is left_only
@@ -379,7 +379,7 @@ srid_list = empl_cust.loc[empl_cust['_merge'] == 'left_only', 'srid']
 ```
 ```
 # empl_cust.head() (前面是員工，後面是高品質顧客)
-   srid  lname_x fname_x                title  hire_date  ...    lname_y               phone                 fax                        email_y     _merge
+    srid  lname_x fname_x                title  hire_date  ...    lname_y               phone                 fax                        email_y     _merge
 0     1    Adams  Andrew      General Manager 2002-08-14  ...        NaN                 NaN                 NaN                            NaN  left_only
 1     2  Edwards   Nancy        Sales Manager 2002-05-01  ...        NaN                 NaN                 NaN                            NaN  left_only
 2     3  Peacock    Jane  Sales Support Agent 2002-04-01  ...  Gonçalves  +55 (12) 3923-5555  +55 (12) 3923-5566           luisg@embraer.com.br       both
@@ -395,7 +395,7 @@ srid_list = empl_cust.loc[empl_cust['_merge'] == 'left_only', 'srid']
 63    8
 -
 # employees[employees['srid'].isin(srid_list)]
-       srid     lname    fname            title  hire_date                    email
+        srid     lname    fname            title  hire_date                    email
     0     1     Adams   Andrew  General Manager 2002-08-14   andrew@chinookcorp.com
     1     2   Edwards    Nancy    Sales Manager 2002-05-01    nancy@chinookcorp.com
     5     6  Mitchell  Michael       IT Manager 2003-10-17  michael@chinookcorp.com
