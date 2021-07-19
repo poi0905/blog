@@ -322,15 +322,32 @@ orig_seq = sequels_fin.merge(sequels_fin, how='inner', left_on='sequel',
 orig_seq['diff'] = orig_seq['revenue_seq'] - orig_seq['revenue_org']
 # Select the title_org, title_seq, and diff 
 titles_diff = orig_seq[['title_org','title_seq','diff']]
-# Print the first rows of the sorted titles_diff
-print(titles_diff.sort_values('diff', ascending=False).head())
 ```
 ```
-                   title_org        title_seq          diff
-    id                                                     
-    331    Jurassic Park III   Jurassic World  1.144748e+09
-    272        Batman Begins  The Dark Knight  6.303398e+08
-    10138         Iron Man 2       Iron Man 3  5.915067e+08
-    863          Toy Story 2      Toy Story 3  5.696028e+08
-    10764  Quantum of Solace          Skyfall  5.224703e+08
+# sequels_fin.head()
+              title sequel       budget       revenue
+id                                                   
+19995        Avatar    nan  237000000.0  2.787965e+09
+862       Toy Story    863   30000000.0  3.735540e+08
+863     Toy Story 2  10193   90000000.0  4.973669e+08
+597         Titanic    nan  200000000.0  1.845034e+09
+24428  The Avengers    nan  220000000.0  1.519558e+09
+-
+# orig_seq.head()
+    sequel                                          title_org sequel_org   budget_org  revenue_org                                      title_seq sequel_seq   budget_seq   revenue_seq         diff
+id                                                                                                                                                                                                  
+862    863                                          Toy Story        863   30000000.0  373554033.0                                    Toy Story 2      10193   90000000.0  4.973669e+08  123812836.0
+863  10193                                        Toy Story 2      10193   90000000.0  497366869.0                                    Toy Story 3        nan  200000000.0  1.066970e+09  569602834.0
+675    767          Harry Potter and the Order of the Phoenix        767  150000000.0  938212738.0         Harry Potter and the Half-Blood Prince        nan  250000000.0  9.339592e+08   -4253541.0
+121    122              The Lord of the Rings: The Two Towers        122   79000000.0  926287400.0  The Lord of the Rings: The Return of the King        nan   94000000.0  1.118889e+09  192601579.0
+120    121  The Lord of the Rings: The Fellowship of the Ring        121   93000000.0  871368364.0          The Lord of the Rings: The Two Towers        122   79000000.0  9.262874e+08   54919036.0
+-
+# titles_diff.sort_values('diff', ascending=False).head()
+               title_org        title_seq          diff
+id                                                     
+331    Jurassic Park III   Jurassic World  1.144748e+09
+272        Batman Begins  The Dark Knight  6.303398e+08
+10138         Iron Man 2       Iron Man 3  5.915067e+08
+863          Toy Story 2      Toy Story 3  5.696028e+08
+10764  Quantum of Solace          Skyfall  5.224703e+08
 ```
