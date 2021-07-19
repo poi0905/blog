@@ -366,6 +366,34 @@ id
     - returns the intersection
     - returns only columns from the left teble and **not** the right
     - no duplicates
+    - Example: 一堆發票中，找出是non-music的
+```python
+# Merge the non_mus_tck and top_invoices tables on tid
+tracks_invoices = non_mus_tcks.merge(top_invoices, on='tid')
+# Use .isin() to subset non_mus_tcsk to rows with tid in tracks_invoices
+top_tracks = non_mus_tcks[non_mus_tcks['tid'].isin(tracks_invoices['tid'])]
+# Group the top_tracks by gid and count the tid rows
+cnt_by_gid = top_tracks.groupby(['gid'], as_index=False).agg({'tid':'count'})
+# Merge the genres table to cnt_by_gid on gid and print
+print(cnt_by_gid.merge(genres, on='gid'))
+```
+```
+# tracks_invoices.head()
+    tid       name  aid  mtid  gid  u_price  ilid  iid  uprice  quantity
+0  2850    The Fix  228     3   21     1.99   473   88    1.99         1
+1  2850    The Fix  228     3   21     1.99  2192  404    1.99         1
+2  2868  Walkabout  230     3   19     1.99   476   88    1.99         1
+3  2868  Walkabout  230     3   19     1.99  2194  404    1.99         1
+4  3177   Hot Girl  249     3   19     1.99  1668  306    1.99         1
+-
+# top_tracks.heads()
+       tid                          name  aid  mtid  gid  u_price
+2849  2850                       The Fix  228     3   21     1.99
+2867  2868                     Walkabout  230     3   19     1.99
+3176  3177                      Hot Girl  249     3   19     1.99
+3199  3200                Gay Witch Hunt  251     3   19     1.99
+3213  3214             Phyllis's Wedding  251     3   22     1.99
+```
 - anti-join:
     - returns the left table, excluding the intersection
     - returns only columns from the left teble and **not** the right
