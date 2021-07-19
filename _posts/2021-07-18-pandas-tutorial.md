@@ -20,7 +20,11 @@ categories: [Python]
 
 4. [Creating and Visualizing DataFrames](#4)
 
-4. [Data Merging](#5)
+5. [Data Merging](#5)
+
+6. [Advanced Merging and Concatenating](#6)
+
+7. [Merging Ordered and Time-Series Data](#7)
 
 
 <a name="前言"/>
@@ -310,7 +314,7 @@ movies_ratings = movies.merge(ratings, on='id')
 # Print the first few rows of movies_ratings
 print(movies_ratings.head())
 ```
-- Example 2: 看續集有沒有賺比較多
+- Example 2: 看續集有沒有賺比較多(**當兩邊index不一樣時可以使用left_on和right_on來指定merge的index**)
 ```python
 # Merge sequels and financials on index id
 sequels_fin = sequels.merge(financials, on='id', how='left')
@@ -351,3 +355,16 @@ id
 863          Toy Story 2      Toy Story 3  5.696028e+08
 10764  Quantum of Solace          Skyfall  5.224703e+08
 ```
+
+<a name="6"/>
+# Advanced Merging and Concatenating
+
+***
+
+*Filtering joins*
+
+
+<a name="7"/>
+# Merging Ordered and Time-Series Data
+
+***
