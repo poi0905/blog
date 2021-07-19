@@ -448,7 +448,15 @@ inv_jul_thr_sep = pd.concat([inv_jul, inv_aug,inv_sep],
 avg_inv_by_month = inv_jul_thr_sep.groupby(level=0).agg({'total':'mean'})
 ```
 
-*Verifying integrity*(避免重複出現)
+*Verifying integrity*(避免重複出現，實務上的資料並不乾淨!!)
+- validate='one_to_many'代表on的東西是一對多
+```python
+albums.merge(tracks, on='aid', validate='one_to_many')
+```
+- verify_integrity True代表同一index不能有不同值
+```python
+pd.concat([inv_feb, inv_mar], verify_integrity=False)
+```
 
 <a name="7"/>
 # Merging Ordered and Time-Series Data
