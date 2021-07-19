@@ -371,7 +371,7 @@ id
     - returns only columns from the left teble and **not** the right
     - Example: 一個員工管理許多顧客，目標為找出那些沒有對應到高品質顧客的員工
 ```python
-# Merge employees and top_cust
+# Merge employees and top_cust(indicator generate the column "_merge")
 empl_cust = employees.merge(top_cust, on='srid', 
                                  how='left', indicator=True)
 # Select the srid column where _merge is left_only
