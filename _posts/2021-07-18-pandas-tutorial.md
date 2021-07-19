@@ -462,3 +462,96 @@ pd.concat([inv_feb, inv_mar], verify_integrity=False)
 # Merging Ordered and Time-Series Data
 
 ***
+
+*merge_ordered()*
+- 適合用在有時間相關的資料
+- 可以填入missing data
+```python
+# Use merge_ordered() to merge gdp and sp500, interpolate missing value
+gdp_sp500 = pd.merge_ordered(gdp, sp500, left_on='year', right_on='date', 
+                             how='left',  fill_method='ffill')
+# Subset the gdp and returns columns
+gdp_returns = gdp_sp500[['gdp', 'returns']]
+# Print gdp_returns correlation
+print (gdp_returns.corr())
+```
+
+*merge_asof()*
+- similar to left-join
+- match on the nearset key column and not exact match(可以設定為大於等於/小於等於/最靠近的)
+- 預設是backward，也就是選小於等於最靠近的
+```python
+# Use merge_asof() to merge jpm and wells
+jpm_wells = pd.merge_asof(jpm, wells, on='date_time', 
+                          suffixes=('', '_wells'), direction='nearest')
+# Use merge_asof() to merge jpm_wells and bac
+jpm_wells_bac = pd.merge_asof(jpm_wells, bac, on='date_time', 
+                              suffixes=('_jpm', '_bac'), direction='nearest')
+```
+```python
+# Merge gdp and recession on date using merge_asof()
+gdp_recession = pd.merge_asof(gdp, recession, on='date')
+# Create a list based on the row value of gdp_recession['econ_status']
+is_recession = ['r' if s=='recession' else 'g' for s in gdp_recession['econ_status']]
+# Plot a bar chart of gdp_recession
+gdp_recession.plot(kind='bar', y='gdp', x='date', color=is_recession, rot=90)
+plt.show()
+```
+
+*Selecting data with .query()*
+- Example: 資料長這樣
+```
+            financial  company  year    value
+0       total_revenue  twitter  2019  3459329
+1     cost_of_revenue  twitter  2019  1137041
+2        gross_profit  twitter  2019  2322288
+3  operating_expenses  twitter  2019  1955915
+4          net_income  twitter  2019  1465659
+```
+```python
+# 找NI<0的公司
+social_fin.query('financial == "net_income" and value < 0')
+# 找FB的rev
+social_fin.query('company == "facebook" and financial == "total_revenue"')
+```
+
+*Reshaping data with .melt()*
+- 可以讓表格更好讀
+```python
+# Unpivot everything besides the year column
+ur_tall = ur_wide.melt(id_vars=['year'], var_name='month', 
+                       value_name='unempl_rate')
+```
+```
+ur_wide(old):
+        year  jan  feb  mar  apr  ...  aug  sep  oct  nov  dec
+    0   2010  9.8  9.8  9.9  9.9  ...  9.5  9.5  9.4  9.8  9.3
+    1   2011  9.1  9.0  9.0  9.1  ...  9.0  9.0  8.8  8.6  8.5
+    2   2012  8.3  8.3  8.2  8.2  ...  8.1  7.8  7.8  7.7  7.9
+    3   2013  8.0  7.7  7.5  7.6  ...  7.2  7.2  7.2  6.9  6.7
+    4   2014  6.6  6.7  6.7  6.2  ...  6.1  5.9  5.7  5.8  5.6
+    5   2015  5.7  5.5  5.4  5.4  ...  5.1  5.0  5.0  5.1  5.0
+    6   2016  4.9  4.9  5.0  5.0  ...  4.9  5.0  4.9  4.7  4.7
+    7   2017  4.7  4.6  4.4  4.4  ...  4.4  4.2  4.1  4.2  4.1
+    8   2018  4.1  4.1  4.0  4.0  ...  3.8  3.7  3.8  3.7  3.9
+    9   2019  4.0  3.8  3.8  3.6  ...  3.7  3.5  3.6  3.5  3.5
+    10  2020  3.6  3.5  4.4  NaN  ...  NaN  NaN  NaN  NaN  NaN
+ur_tall(new):
+         year  month     unempl_rate
+    0    2010   jan          9.8
+    1    2011   jan          9.1
+    2    2012   jan          8.3
+    3    2013   jan          8.0
+    4    2014   jan          6.6
+    5    2015   jan          5.7
+    6    2016   jan          4.9
+    7    2017   jan          4.7
+    8    2018   jan          4.1
+    9    2019   jan          4.0
+    10   2020   jan          3.6
+    11   2010   feb          9.8
+    12   2011   feb          9.0
+    13   2012   feb          8.3
+    14   2013   feb          7.7
+    15   2014   feb          6.7
+```
