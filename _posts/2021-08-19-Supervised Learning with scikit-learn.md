@@ -357,3 +357,40 @@ plt.ylabel('True Positive Rate')
 plt.title('ROC Curve')
 plt.show()
 ```
+    - AUROC
+```python
+# Import necessary modules
+from sklearn.metrics import roc_auc_score 
+from sklearn.model_selection import cross_val_score 
+# Compute predicted probabilities: y_pred_prob
+y_pred_prob = logreg.predict_proba(X_test)[:,1]
+# Compute and print AUC score
+print("AUC: {}".format(roc_auc_score(y_test, y_pred_prob)))
+# Compute cross-validated AUC scores: cv_auc
+cv_auc = cross_val_score(logreg, X, y, cv=5, scoring='roc_auc')
+# Print list of AUC scores
+print("AUC scores computed using 5-fold cross-validation: {}".format(cv_auc))
+```
+
+- Hyperparameter tuning(choose the best parameters like *alpha* and *k*)
+```python
+# Import necessary modules
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GridSearchCV
+# Setup the hyperparameter grid
+c_space = np.logspace(-5, 8, 15)
+param_grid = {'C': c_space}
+# Instantiate a logistic regression classifier: logreg
+logreg = LogisticRegression()
+# Instantiate the GridSearchCV object: logreg_cv
+logreg_cv = GridSearchCV(logreg, param_grid, cv=5)
+# Fit it to the data
+logreg_cv.fit(X, y)
+# Print the tuned parameters and score
+print("Tuned Logistic Regression Parameters: {}".format(logreg_cv.best_params_)) 
+print("Best score is {}".format(logreg_cv.best_score_))
+```
+
+- Hyperparameter tuning with RandomizedSearchCV(不用再訂範圍了)
+```python
+```
