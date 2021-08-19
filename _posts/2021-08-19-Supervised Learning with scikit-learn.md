@@ -397,7 +397,6 @@ print("Best score is {}".format(logreg_cv.best_score_))
 from scipy.stats import randint
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import RandomizedSearchCV
-
 # Setup the parameters and distributions to sample from: param_dist
 param_dist = {"max_depth": [3, None],
               "max_features": randint(1, 9),
