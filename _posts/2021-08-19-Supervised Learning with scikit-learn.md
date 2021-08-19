@@ -16,6 +16,8 @@ categories: [python]
 
 2. [Regression](#Regression)
 
+3. [Fine-tuning your model](#3)
+
 
 
 <a name="前言"/>
@@ -298,3 +300,44 @@ plt.show()
 ```
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/lasso_feature_selection.jpg)
 *'child_mortality' is the most important feature when predicting life expectancy.*
+
+<a name="3"/>
+# Fine-tuning your model
+
+***
+
+- Metrics for classification
+    - KNN 
+```python
+# Import necessary modules
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+# Create training and test set
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+# Instantiate a k-NN classifier: knn
+knn = KNeighborsClassifier(n_neighbors=6)
+# Fit the classifier to the training data
+knn.fit(X_train, y_train)
+# Predict the labels of the test data: y_pred
+y_pred = knn.predict(X_test)
+# Generate the confusion matrix and classification report
+print(confusion_matrix(y_test, y_pred))
+print(classification_report(y_test, y_pred))
+```
+    - Logistic regression (預設的 threshold=0.5，超過0.5判定為1，相反則為0。)
+```python
+# Import the necessary modules
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix, classification_report
+# Create training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.4, random_state=42)
+# Create the classifier: logreg
+logreg = LogisticRegression()
+# Fit the classifier to the training data
+logreg.fit(X_train, y_train)
+# Predict the labels of the test set: y_pred
+y_pred = logreg.predict(X_test)
+# Compute and print the confusion matrix and classification report
+print(confusion_matrix(y_test, y_pred))
+print(classification_report(y_test, y_pred))
+```
