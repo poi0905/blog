@@ -18,6 +18,8 @@ categories: [python]
 
 3. [Fine-tuning your model](#3)
 
+4. [Preprocessing and pipelines](#4)
+
 
 
 <a name="前言"/>
@@ -461,3 +463,23 @@ print("Tuned ElasticNet l1 ratio: {}".format(gm_cv.best_params_))
 print("Tuned ElasticNet R squared: {}".format(r2))
 print("Tuned ElasticNet MSE: {}".format(mse))
 ```
+
+<a name="4"/>
+# Preprocessing and pipelines
+
+***
+
+- Scikit-learn will not accept categorical features by default
+- Create dummy variables!!
+    - scikit-learn: OneHotEncoder()
+    - pandas: get_dummies()
+```python
+# Import pandas
+import pandas as pd
+# Read 'gapminder.csv' into a DataFrame: df
+df = pd.read_csv('gapminder.csv')
+# Create dummy variables: df_region
+df_region = pd.get_dummies(df)
+```
+
+- Handling missing data
