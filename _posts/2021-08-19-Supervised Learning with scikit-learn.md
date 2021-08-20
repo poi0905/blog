@@ -483,3 +483,11 @@ df_region = pd.get_dummies(df)
 ```
 
 - Handling missing data
+```python
+# Convert '?' to NaN
+df[df == '?'] = np.nan
+# Drop missing values and print shape of new DataFrame
+df = df.dropna()
+# Print shape of new DataFrame
+print("Shape of DataFrame After Dropping All Rows with Missing Values: {}".format(df.shape))
+```
