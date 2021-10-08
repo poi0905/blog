@@ -3,7 +3,7 @@ layout: post
 title: 使用scikit-learn來執行監督式學習
 summary: datacamp學習筆記
 featured-img: sklearn
-categories: [python]
+categories: [Python]
 ---
 
 # 目錄
