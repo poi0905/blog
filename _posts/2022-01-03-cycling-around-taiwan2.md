@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2022.01 環島
+title: 2022.01 再度環島
 summary: 一個說走就走的旅行!
 featured-img: 裝逼照
 categories: [遊記]
