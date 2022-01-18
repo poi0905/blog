@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2022.01 再度環島
-summary: 一個說走就走的旅行!
+summary: 少了幾分熱血，多了幾分熱量
 featured-img: 裝逼照
 categories: [遊記]
 ---
