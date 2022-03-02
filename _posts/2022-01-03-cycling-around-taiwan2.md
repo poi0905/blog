@@ -158,6 +158,8 @@ categories: [遊記]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_20.jpeg)
 
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_21.jpeg)
+
 **晚餐: 513鹹水雞**
 
 🔹全雞、木耳、玉米筍、豆皮、小黃瓜、四季豆⋯（忘記了🤣 240元
@@ -166,7 +168,7 @@ categories: [遊記]
 2.	地址: 954台東縣卑南鄉龍泉路44號
 3.	心得: 看評論有寫說是知本必吃、全台最好吃的鹹水雞，當然要吃吃看！吃起來很清爽，不會過鹹調味的剛剛好！超大一包才240元～很讚！
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_21.jpeg)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_23.jpeg)
 
 **晚餐: 日本章魚燒小吃店**
 
@@ -176,9 +178,9 @@ categories: [遊記]
 2.	地址: 954台東縣卑南鄉龍泉路42號
 3.	心得: 在住的地方的門口而已，看起來沒什麼人，跟老闆娘點了一盒，說要22:00才能拿😱（大概要等3小時），原來這家都是要登記制的，一盤章魚燒製作要耗時50分鐘，一天只有30盒，我們很幸運買到最後一盒！老闆是日本人，想必非常道地，果真超級好吃！醬汁不會太鹹很讚，表皮很脆，和日X吃起來差很多🤣
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_23.jpeg)
-
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_24.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_25.jpeg)
 
 <a name="Day4"/>
 # 📍Day4-2022/01/01
@@ -209,6 +211,8 @@ categories: [遊記]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_31.jpeg)
 
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_34.jpeg)
+
 **午餐: 池上-丫嬤的店**
 
 🔹手工熟水餃 5元/顆
@@ -220,9 +224,9 @@ categories: [遊記]
 2.	地址: 958台東縣池上鄉中東三路15號
 3.	心得: 他們的水餃和麵是用仙草做的超級酷！店內的菜單超有個性，點正常的份量就很大了！（不塊是阿嬤的店🤣）仙草水餃和麵吃起來沒有很明顯的仙草味，但吃得出來用料很實在！水餃餡料是韭菜口味，很韭很香！推薦加他們的辣醬試試，不要加太多會很辣🥵整體很有特色有家鄉味，吃起來就是家常小吃～
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_34.jpeg)
-
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_35.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_36.jpeg)
 
 **伯朗大道**
 
@@ -230,7 +234,7 @@ categories: [遊記]
 2.	地址: 958台東縣池上鄉
 3.	心得: 伯朗大道還是一如既往的多人，好像除了拍照也沒什麼😅所以我們速速拍完照就離開了，如果要來可能不能趁連假，無法拍出美美、背景乾淨的照片～
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_37.jpeg)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_38.jpeg)
 
 **北回歸線標誌公園**
 
@@ -238,23 +242,23 @@ categories: [遊記]
 2.	地址: 978花蓮縣瑞穗鄉中正南路二段76-9號
 3.	心得: 是一個路過可以停下來上廁所，拍一下地標的地方！
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_40.jpeg)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_41.jpeg)
 
 **瑞穗牧場**
 1.	個人評價: ★ ★ ★ ★ ☆
 2.	地址: 978花蓮縣瑞穗鄉6鄰157號
 3.	心得: 走山線滿適合去的地方！可以來看看牛🐮，喝一下鮮奶、鮮奶茶、吃鮮奶饅頭當小點心，小缺點是牛有點臭、人有點太多～～
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_41.jpeg)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_42.jpeg)
 
 **花蓮觀光糖廠**
 1.	個人評價: ★ ★ ★ ★ ☆
 2.	地址: 97642花蓮縣光復鄉糖廠街19號
 3.	心得: 也是路過可以去一下的景點！本來沒有要吃東西了，但看到人手一支冰淇淋🍦還是忍不住買了！結帳的地方做的很像火車站的售票口滿特別的！冰淇淋我們吃木瓜口味的，比想像中的好吃！尤其是甜筒餅乾的部分，不是那種廉價的～晃一晃可以看到一些古蹟的介紹，滿有趣的可以長知識！
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_43.jpeg)
-
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_44.jpeg)
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_45.jpeg)
 
 **晚餐: 王記茶舖人文茶堂**
 
@@ -267,7 +271,7 @@ categories: [遊記]
 2.	地址: 970花蓮縣花蓮市中山路565號
 3.	心得: 被譽為花蓮的春水堂，必點珍珠奶茶！珍珠是小珍珠，有一點少，不過整體很好喝！小杯就很大杯了～桔香蜜茶也不錯～不過不太喜歡裡面的果粒渣渣！兩樣主餐都很好吃，椒麻雞排很有水準，火鍋的湯很好喝！我們把它全部喝光光😍
 
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_46.jpeg)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_47.jpeg)
 
 <a name="Day5"/>
 # 📍Day5-2022/01/02
