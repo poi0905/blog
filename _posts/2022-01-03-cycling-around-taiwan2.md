@@ -149,12 +149,12 @@ categories: [遊記]
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_18.jpeg)
 
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_19.jpeg)
+
 **7-ELEVEN 海豚灣門市**
 1.	個人評價: ★ ★ ★ ★ ★ 
 2.	地址: 941屏東縣枋山鄉中山路三段61-3號
 3.	心得: 是機車必來的景點之一！在711買了City Cafe來海邊，坐著邊喝咖啡邊看海很chill，是一個稍作休息的好地方！海邊是石頭滿好坐的，不會用的髒兮兮！
-
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_19.jpeg)
 
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c_20.jpeg)
 
