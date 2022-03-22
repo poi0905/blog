@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2022.01 再度環島
+title: 2022.01 環島II
 summary: 少了幾分熱血，多了幾分熱量
 featured-img: 環島2
 categories: [遊記]
