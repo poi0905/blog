@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 2022.03 環島III
-summary: 少了幾分熱血，多了幾分熱量
-featured-img: 環島2
+summary: 成為社畜前的最後一環
+featured-img: 環島3
 categories: [遊記]
 ---
 
@@ -132,7 +132,7 @@ categories: [遊記]
 
 <a name="Day4"/>
 # 📍Day4-2022/03/22
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/day4.jpg)
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/day4cㄎ.jpg)
 ***
 
 第四天由於室友們比較晚起我先自己吃早餐，回來等到他們醒來後我們就沖沖出發，免得炸屎在路上哈哈哈
