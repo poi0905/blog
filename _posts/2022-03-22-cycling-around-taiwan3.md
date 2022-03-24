@@ -34,9 +34,10 @@ categories: [遊記]
 
 <a name="Day1"/>
 # 📍Day1-2022/03/19
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c1.jpg)
 
 ***
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c1.jpg)
 
 出發前帥氣的合照
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c2.jpg)
@@ -79,9 +80,10 @@ categories: [遊記]
 
 <a name="Day2"/>
 # 📍Day2-2021/03/20
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/cday2.jpg)
 
 ***
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/cday2.jpg)
 
 第二天直接從集集出發台21，台21就是中部騎車的人會常去的地方，也就是俗稱的天冷。跑起來真的超級舒服，想想北部只有北宜是真的可憐0.0
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c19.jpg)
@@ -110,9 +112,10 @@ categories: [遊記]
 
 <a name="Day3"/>
 # 📍Day3-2021/03/21
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/cday3.jpg)
 
 ***
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/cday3.jpg)
 
 第三天一早起床，發現昨晚沒看到的椰子樹，再配上太陽，其實頗有度假的感覺，個人推這家飯店！
 ![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/c37.jpg)
@@ -135,9 +138,10 @@ categories: [遊記]
 
 <a name="Day4"/>
 # 📍Day4-2022/03/22
-![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/cday4.jpg)
 
 ***
+
+![image](https://raw.githubusercontent.com/poi0905/blog/master/assets/img/posts/cday4.jpg)
 
 第四天由於室友們比較晚起我先自己吃早餐，回來等到他們醒來後我們就沖沖出發，免得炸屎在路上哈哈哈
 
