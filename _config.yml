@@ -3,7 +3,7 @@ title: Poi's House # your site title
 author: Poi Wang # You :P
 description: > # Meta description of Homepage
   Just for fun!
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://poi0905.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
